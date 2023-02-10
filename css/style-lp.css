@@ -1,0 +1,52 @@
+.orange {
+  color: #ff7f00;
+}
+.midnightBlue {
+  color: #0b0b53;
+}
+.white {
+  color: #ffffff;
+}
+.purpleBlue {
+  color: #3c3c76;
+}
+.black {
+  color: #000000;
+}
+h1,
+.h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #ff7f00;
+}
+h2,
+.h2 {
+  font-size: 35px;
+  font-weight: 800;
+  color: #0b0b53;
+}
+h3,
+.h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: gray;
+}
+h4,
+.h4 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #3c3c76;
+}
+h5,
+.h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+h6,
+.h6 {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
