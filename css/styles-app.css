@@ -52,6 +52,11 @@ nav {
   font-size: 25px;
 }
 
+.bi{
+  position: absolute;
+  padding: 5px;
+  z-index:1 ;
+}
 .logo {
   border-radius: 15px;
 }
