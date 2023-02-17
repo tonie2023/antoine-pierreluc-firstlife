@@ -71,6 +71,79 @@ main {
   font-weight: 500;
 }
 
+/*----------------
+#Styles Généraux
+------------------*/
+* {
+  box-sizing: border-box;
+}
+* {
+  outline: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/*-------------------------------
+ # Section palette de couleurs 
+ --------------------------------*/
+
+:root {
+  --primary: #ff7f00;
+}
+:root {
+  --secondary: #0b0b53;
+}
+:root {
+  --third: white;
+}
+:root {
+  --fourth: #3c3c76;
+}
+:root {
+  --fifth: black;
+}
+
+/*------------------
+ # Section fontes 
+ -------------------*/
+
+:root {
+  --font_01: Montserrat;
+}
+:root {
+  --font_02: overpass;
+}
+
+/*-----------------
+ # Section Header 
+ ------------------*/
+
+main {
+  width: 100%;
+  height: 100%;
+}
+.navbar {
+  height: 130px;
+  background-color: var(--secondary);
+}
+.logo {
+  height: 75px;
+  width: 75px;
+  border-radius: 20px;
+}
+.nav-link {
+  color: var(--third);
+  margin-left: 30px;
+  font-family: var(--font_01);
+  font-weight: 500;
+}
+
 /*--------------- 
 # Section Hero 
 -----------------*/
@@ -80,9 +153,7 @@ main {
   position: relative;
   top: 130px;
 }
-.énoncé {
-  position: relative;
-  top: 200px;
+.enonce {
   font-family: var(--font_02);
   color: var(--fourth);
 }
@@ -98,8 +169,7 @@ main {
   font-size: 50px;
 }
 .app {
-  margin-top: 37px;
-  max-width: 400px;
+  margin-top: 20px;
   aspect-ratio: 5/9;
 }
 .btn1 {
