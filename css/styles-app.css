@@ -1,52 +1,70 @@
-.orange {
-  color: #ff7f00;
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/
+:root {
+  --darkblue: #010355;
+  --blue: #0004d6;
+  --mauve: #290260;
+  --textTitre: "Gugi", cursive;
+  --orange: rgb(194, 113, 6);
 }
-.midnightBlue {
-  color: #0b0b53;
+
+html,
+body {
+  background-color: var(--darkblue);
 }
-.white {
-  color: #ffffff;
+
+header {
+  content: normal;
 }
-.purpleBlue {
-  color: #3c3c76;
+
+li {
+  list-style-type: none;
+  color: white;
+  border-radius: 5px;
 }
-.black {
-  color: #000000;
+li a {
+  padding: 2px;
+  border-radius: 10px;
 }
-h1,
-.h1 {
-  font-size: 40px;
-  font-weight: 900;
-  color: #ff7f00;
+li a:hover {
+  background-color: var(--orange);
 }
-h2,
-.h2 {
+
+nav {
+  background-color: var(--blue);
+  color: white;
+}
+
+.navbar-toggler-icon:hover {
+  background-color: white;
+}
+
+.navbar-toggler-icon:active {
+  background-color: var(--orange);
+}
+
+.Title {
+  margin: 20px;
+  content: normal;
+  font-family: var(--textTitre);
+  color: var(--orange);
   font-size: 35px;
-  font-weight: 800;
-  color: #0b0b53;
 }
-h3,
-.h3 {
-  font-size: 30px;
-  font-weight: 700;
-  color: #ffffff;
-  background-color: gray;
+
+.logo {
+  border-radius: 15px;
 }
-h4,
-.h4 {
-  font-size: 25px;
-  font-weight: 900;
-  color: #3c3c76;
+
+footer {
+  content: normal;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: var(--mauve);
+  color: white;
+  border-radius: 15px;
 }
-h5,
-.h5 {
-  font-size: 20px;
-  font-weight: 500;
-  color: black;
-}
-h6,
-.h6 {
-  font-size: 15px;
-  font-weight: 400;
-  color: black;
-}
+
+/*---------------------------------------------------------- 
+    # Section Hero  
+    ----------------------------------------------------------*/
