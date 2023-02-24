@@ -53,7 +53,6 @@ body {
 
 main {
   width: 100%;
-  height: 100%;
 }
 .navbar {
   height: 130px;
@@ -75,14 +74,63 @@ main {
 # Section Hero 
 -----------------*/
 
-#hero {
+#mainHero {
   width: 100%;
-  position: relative;
-  top: 130px;
+  padding-top: 130px;
 }
-.énoncé {
-  position: relative;
-  top: 200px;
+#titre_fonctionalite {
+  width: 100%;
+}
+#titre_testimonial {
+  width: 100%;
+}
+.title {
+  font-family: var(--font_01);
+  font-weight: bolder;
+  color: var(--fourth);
+}
+.fonctions {
+  font-family: var(--font_01);
+  color: var(--fourth);
+  font-weight: bolder;
+}
+.contexte {
+  font-family: var(--font_02);
+  font-weight: 500;
+  color: var(--fifth);
+}
+.section-features {
+  background-color: rgb(231, 225, 225);
+}
+#services {
+  width: 100%;
+}
+#temoignages {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.temoins {
+  height: 23vh;
+  object-fit: cover;
+}
+.nom {
+  font-family: var(--font_01);
+  color: var(--fourth);
+  font-weight: bolder;
+}
+.quote {
+  font-family: var(--font_02);
+  color: var(--fifth);
+  font-weight: 500;
+}
+.card {
+  border: none;
+}
+.enonce {
+  font-family: var(--font_02);
+  color: var(--fourth);
+}
+.enonce_02 {
   font-family: var(--font_02);
   color: var(--fourth);
 }
@@ -98,8 +146,7 @@ main {
   font-size: 50px;
 }
 .app {
-  margin-top: 37px;
-  max-width: 400px;
+  margin-top: 20px;
   aspect-ratio: 5/9;
 }
 .btn1 {
@@ -111,14 +158,55 @@ main {
   background-color: var(--primary);
   border: var(--primary);
 }
+.bi-table {
+  font-size: 40px;
+  color: var(--fourth);
+}
+.bi-chat-square-quote-fill {
+  position: absolute;
+  left: 80px;
+  top: 228px;
+  font-size: 25px;
+  color: var(--secondary);
+}
+.card-testimonial {
+  background-color: rgb(234, 229, 229);
+}
+.bi-calendar3 {
+  font-size: 40px;
+  color: var(--fourth);
+}
+.bi-postcard {
+  font-size: 40px;
+  color: var(--fourth);
+}
+.bi-shop {
+  font-size: 40px;
+  color: var(--fourth);
+}
+.bi-geo-fill {
+  font-size: 40px;
+  color: var(--fourth);
+}
 
+.bi-joystick {
+  font-size: 40px;
+  color: var(--fourth);
+}
+h4 {
+  font-family: var(--font_01);
+  color: var(--fifth);
+  font-weight: bolder;
+}
+.txt-fontionalite {
+  font-family: var(--font_02);
+  color: black;
+}
 /*------------------------------- 
 # Section Footer(Pied de page) 
 --------------------------------*/
 
 .bd-footer {
-  position: absolute;
-  top: 1650px;
   background-color: var(--secondary);
   height: 143px;
   width: 100%;

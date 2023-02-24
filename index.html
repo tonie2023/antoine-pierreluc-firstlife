@@ -7,6 +7,7 @@
     <meta name="robots" content="noindex" />
     <meta name="robots" content="nofollow" />
     <title>Landing page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,12 +22,12 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style-lp.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header></header>
     <main>
-      <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
+      <nav class="navbar navbar-dark sticky-top navbar-expand-lg">
         <div class="container-fluid">
           <a href="index.html">
             <img class="logo" src="assets/first_life_logo.png" alt="logo" />
@@ -47,28 +48,36 @@
                 <a href="index.html#hero" class="nav-link active">L'appli</a>
               </li>
               <li class="nav-item">
-                <a href="index.html#fonctionnalités" class="nav-link active"
+                <a href="index.html#fonctionnalites" class="nav-link active"
                   >Fonctionnalités</a
                 >
+              </li>
+              <li class="nav-item">
+                <a href="index.html#tarifs" class="nav-link active">Tarifs</a>
               </li>
               <li class="nav-item">
                 <a href="index.html#voir-plus" class="nav-link active"
                   >En voir plus</a
                 >
               </li>
+              <li class="nav-item">
+                <a href="index.html#temoignages" class="nav-link active"
+                  >Témoignages</a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-      <div id="hero">
-        <div class="container-fluid">
+      <div id="mainHero">
+        <div class="container-fluid text-center text-lg-start">
           <div class="row justify-content-center">
-            <div class="énoncé col-12 col-lg-5">
+            <div class="enonce col-12 col-lg-5 justify-content-center">
               <h2 class="premier-texte text-center text-lg-start">
                 Découvrez l'appli<br />
                 officielle du festival
-                <h1 class="titre text-center text-lg-start">First Life</h1>
               </h2>
+              <h1 class="titre text-center text-lg-start">First Life</h1>
               <p class="second-texte text-center text-lg-start">
                 Tirez profit de cette appli qui rendra votre<br />
                 expérience fluide et sans compromis!
@@ -96,8 +105,221 @@
           </div>
         </div>
       </div>
-      <div id="fonctionnalités"></div>
-      <div id="voir-plus"></div>
+      <section class="hero">
+        <section class="section-features pt-5 pb-5">
+          <div class="container text-center text-lg-start">
+            <div class="row justify-content-center">
+              <div id="titre_fonctionalite" class="col 12 col-lg-8 justify-content-center">
+                  <h2 class="fonctions text-center text-lg-center pt-2 pb-2">
+                    Fonctionnalités
+                  </h2>
+                  <p class="contexte text-center text-lg-center pt-2 pb-2">
+                    En téléchargeant notre appli, vous allez profiter d'une
+                    foule de fonctionnalités qui vous permettront de vivre une
+                    expérience totale et<br> complète lors des expositions et des
+                    performances du festival.
+                  </p>
+                </div>
+                <div id="services" class="row justify-content-center">
+                  <div class="col-sm-6 col-lg-6 pt-3 pb-3">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-lg-1">
+                          <i class="bi bi-table" class="card-img-top img-fluid"></i>
+                        </div>
+                        <div class="col-12 col-lg-10">
+                          <div class="card-body">
+                            <h4 class="h4">Programmation complète et modulable</h4>
+                            <p class="txt-fonctionalite">Visionnez en un éclair tout ce qui s'offre à vous : oeuvres, expos et performances selon un horaire bien précis. De plus, vous pourrez filtrer cette programmation en fonction de vos intérêts.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6 pt-3">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-lg-1">
+                          <i class="bi bi-calendar3" class="card-img-top img-fluid"></i>
+                        </div>
+                        <div class="col-12 col-lg-10">
+                          <div class="card-body">
+                            <h4 class="h4">Création d'un horaire personalisé</h4>
+                            <p class="txt-fonctionalite">Dans l'appli, appuyez sur Aimer pour certaines activités, oeuvres ou performances afin de vous construire un horaire personnalisé et ainsi ne rien manquer.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6 pb-3">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-lg-1">
+                          <i class="bi bi-postcard" class="card-img-top img-fluid"></i>
+                        </div>
+                        <div class="col-12 col-lg-10">
+                          <div class="card-body">
+                            <h4 class="h4">Catalogue des oeuvres et artistes</h4>
+                            <p class="txt-fonctionalite">Fouillez parmi des centaines d'oeuvres, classées par artiste, par type d'oeuvre ou par année d'édition du festival. Cette section regorge de contenus qui vous permettent d'avoir une meilleure vision des oeuvres présentées, ainsi qu'une grande quantité de médias qui les documentent.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-lg-1">
+                          <i class="bi bi-shop" class="card-img-top img-fluid"></i>
+                        </div>
+                        <div class="col-12 col-lg-10">
+                          <div class="card-body">
+                            <h4 class="h4">Achat de billets intégré à l'appli</h4>
+                            <p class="txt-fonctionalite">Simplifiez-vous la vie et accédez à la réservation gratuite ou payante des différentes expositions ou performances et ce, à même l'appli, au bout des doigts.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6 pb-3">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-lg-1">
+                          <i class="bi bi-geo-fill" class="card-img-top img-fluid"></i>
+                        </div>
+                        <div class="col-12 col-lg-10">
+                          <div class="card-body">
+                            <h4 class="h4">Repérage d'amis sur la carte intéractive</h4>
+                            <p class="txt-fonctionalite">Partagez votre position avec vos amis qui participent au festival, demandez-leur la même chose et vous pourrez facilement vous retrouver pour apprécier l'art, tous ensemble, selon vos préférences communes.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-6">
+                    <div class="card">
+                      <div class="row">
+                        <div class="col-lg-1">
+                          <i class="bi bi-joystick" class="card-img-top img-fluid"></i>
+                        </div>
+                        <div class="col-12 col-lg-10">
+                          <div class="card-body">
+                            <h4 class="h4">Contrôle de certaines oeuvres exposées</h4>
+                            <p class="txt-fonctionalite">Certaines oeuvres ou performances interactives vous offrent la possibilité d'y ajouter un peu de vous et de contrôler une partie de l'oeuvre ou de la scénographie. Tout ça, à même l'appli!</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tarifs"></div>
+              <div id="voir-plus"></div>
+            </div>
+          </div>
+        </section>
+        <section class="section-testimonials pt-3 pb-5">
+          <div class="container-fluid text-center text-lg-start">
+            <div class="enonce_02 col-12 col-lg-12 justify-content-center">
+              <div id="titre_testimonial" class="col 12 col-lg-8 justify-content-center">
+                <h2 class="title text-center text-lg-center pt-3">
+                  Témoignages
+                </h2>
+                <p class="contexte text-center text-lg-center pt-3">
+                  En téléchargeant notre appli, vous allez profiter d'une
+                  foule de fonctionnalités, mais également d"un espace de témoignages de gens ayant participés aux évènements et aux performances du festival. Ce qui vous permettra de faire des choix éclairés sur les évènements du festival dont les témoignages vous auront inspirés à choisir. 
+                </p>
+              </div>
+            </div>
+            <div id="temoignages" class="row justify-content-center pt-4 pb-4">
+              <div class="col-12 col-sm-6 col-lg-2">
+                <div class="card-testimonial card">
+                  <img src="assets/makiko.jpg" class="temoins card-img-top">
+                  <div class="row">
+                    <div class="text-center">
+                      <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
+                     </div>
+                      <div class="recit card-body">
+                        <h5 class="nom text-center">Makiko</h5>
+                        <p class="quote text-center">J'ai beaucoup aimé l'exposition First Life du festival! J'ai trouvé que cela était pertinent et super intéressant. Je le recommande vivement!</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2">
+                <div class="card-testimonial card">
+                  <img src="assets/rajesh.jpg" class="temoins card-img-top">
+                  <div class="row">
+                    <div class="text-center">
+                      <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
+                    </div>
+                    <div class="recit card-body">
+                      <h5 class="nom text-center">Rajesh</h5>
+                      <p class="quote text-center">J'ai trouvé que les expositions étaient réussit. Le festival offrait la possibilité d'avoir un guide ou d'aller explorer par nous même, ce que j'ai beaucoup apprécié!!!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2">
+                <div class="card-testimonial card">
+                  <img src="assets/marie.jpg" class="temoins card-img-top">
+                  <div class="row">
+                    <div class="text-center">
+                      <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
+                    </div>
+                    <div class="recit card-body">
+                      <h5 class="nom text-center">Marie</h5>
+                      <p class="quote text-center">J'ai trouvé que ce festival était divertissant et qui gagne à être connu!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2">
+                <div class="card-testimonial card">
+                  <img src="assets/harry.jpg" class="temoins card-img-top">
+                  <div class="row">
+                    <div class="text-center">
+                      <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
+                    </div>
+                    <div class="recit card-body">
+                      <h5 class="nom text-center">Harry</h5>
+                      <p class="quote text-center">J'ai beaucoup aimé l'exposition immersia du festival! Je trouve que le festival offre une grande variété de choix pour tous le monde et est très attrayant pour les jeunes comme moi!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2">
+                <div class="card-testimonial card">
+                  <img src="assets/jenna.jpg" class="temoins card-img-top">
+                  <div class="row">
+                    <div class="text-center">
+                      <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
+                    </div>
+                    <div class="recit card-body">
+                      <h5 class="nom text-center">Jenna</h5>
+                      <p class="quote text-center">J'ai beaucoup aimé et je recommande vivement ce festival innovant et immersif!!! Plus particulièrement la performance de l'artiste Juan Albos! </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-lg-2">
+                <div class="card-testimonial card">
+                  <img src="assets/roger.jpg" class="temoins card-img-top">
+                  <div class="row">
+                    <div class="text-center">
+                      <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="nom text-center">Roger</h5>
+                      <p class="quote text-center">J'ai beaucoup aimé le festival!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
     <footer class="bd-footer">
       <div class="container-fluid pt-3 pb-3 ps-3 pe-3">
