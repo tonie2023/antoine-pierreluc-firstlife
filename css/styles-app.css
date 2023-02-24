@@ -5,6 +5,7 @@
   --darkblue: #010355;
   --blue: #0004d6;
   --mauve: #290260;
+  --carte: #f7f2d2;
   --textTitre: "Gugi", cursive;
   --orange: rgb(194, 113, 6);
 }
@@ -36,9 +37,28 @@ nav {
   background-color: var(--blue);
   color: white;
 }
+/* Styles cartes*/
 
+.card{
+  background-color: var(--carte);
+}
+
+.link{
+  color: rgb(5, 96, 201);
+  font-weight:bolder;
+  transition: 0.3s;
+}
+
+.link:hover{
+  color:rgb(92, 168, 255);
+}
 .carte{
-  object-fit:cover;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#small-text{
+  font-size: 12px;
 }
 
 .navbar-toggler-icon:hover {
