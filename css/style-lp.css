@@ -22,30 +22,17 @@ body {
 
 :root {
   --primary: #ff7f00;
-}
-:root {
   --secondary: #0b0b53;
-}
-:root {
   --third: white;
-}
-:root {
   --fourth: #3c3c76;
-}
-:root {
   --fifth: black;
+  --font_01: Montserrat;
+  --font_02: overpass;
 }
-
 /*------------------
  # Section fontes 
  -------------------*/
-
-:root {
-  --font_01: Montserrat;
-}
-:root {
-  --font_02: overpass;
-}
+ 
 
 /*-----------------
  # Section Header 
