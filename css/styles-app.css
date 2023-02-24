@@ -3,7 +3,7 @@
 ---------------------------------------------------------*/
 :root {
   --darkblue: #010355;
-  --blue: #0004d6;
+  --blue: #0056d6;
   --mauve: #290260;
   --carte: #f7f2d2;
   --textTitre: "Gugi", cursive;
@@ -41,6 +41,12 @@ nav {
 
 .card{
   background-color: var(--carte);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.card:hover{
+  border: solid var(--blue) 3px;
 }
 
 .link{
@@ -82,7 +88,7 @@ nav {
 }
 
 
-.bi{
+.loupe{
   position: absolute;
   padding: 5px;
   z-index:1 ;
