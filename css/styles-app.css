@@ -37,6 +37,10 @@ nav {
   color: white;
 }
 
+.carte{
+  object-fit:cover;
+}
+
 .navbar-toggler-icon:hover {
   background-color: white;
 }
@@ -57,9 +61,6 @@ nav {
   width: 140%;
 }
 
-.card{
-  max-width: 200px;
-}
 
 .bi{
   position: absolute;
