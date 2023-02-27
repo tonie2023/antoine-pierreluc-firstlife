@@ -1,309 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-    <!--Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gugi&family=Source+Sans+Pro:wght@200;400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
-    <!-- Titre de la page -->
-    <title>First Life Landing Page</title>
-    <!-- Lien vers la feuille de style CSS -->
-    <link href="../css/styles-app.css" rel="stylesheet" type="text/css" />
-    <title>Landing Page Project</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-fixed-top">
-        <div class="container">
-          <!-- Hamburger button -->
-          <button
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#mainNav"
-            aria-controls="mainNav"
-            aria-expanded="false"
-            aria-label="Affichage/masquage de la navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand text-white" href="index.html">
-            <img
-              src="../assets/logo.png"
-              width="50px"
-              class="logo d-inline-block align-top"
-              alt="Logo First Life"
-            /><span class="Title">First Life</span></a
-          >
-          <a
-            href="#"
-            class="d-block link-dark text-decoration-none dropdown-toggle show"
-            data-bs-toggle="dropdown"
-            aria-expanded="true"
-          >
-            <img
-              src="../assets/profile_picture.png"
-              class="profile"
-              width="50px"
-              alt="profile Picture"
-            />
-          </a>
-          <ul
-            class="dropdown-menu text-small"
-            style="
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Source+Sans+Pro:wght@200;400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <!-- Titre de la page -->
+  <title>First Life Landing Page</title>
+  <!-- Lien vers la feuille de style CSS -->
+  <link href="../css/styles-app.css" rel="stylesheet" type="text/css" />
+  <title>Landing Page Project</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top">
+      <div class="container">
+        <!-- Hamburger button -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+          aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-white" href="index.html">
+          <img src="../assets/logo.png" width="50px" class="logo d-inline-block align-top" alt="Logo First Life" /><span
+            class="Title">First Life</span></a>
+        <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle show" data-bs-toggle="dropdown"
+          aria-expanded="true">
+          <img src="../assets/profile_picture.png" class="profile" width="50px" alt="profile Picture" />
+        </a>
+        <ul class="dropdown-menu text-small" style="
               inset: auto auto 0px 0px;
               margin: 0px;
               transform: translate(350%, 36px);
-            "
-            data-popper-placement="top-start"
-          >
-            <li>
-              <a
-                class="dropdown-item justify-content-end"
-                style="float: right"
-                href="#"
-                >Déconnexion</a
-              >
+            " data-popper-placement="top-start">
+          <li>
+            <a class="dropdown-item justify-content-end" style="float: right" href="#">Déconnexion</a>
+          </li>
+        </ul>
+        <!--Navigation-->
+        <div id="mainNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">L'appli</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Fonctionnalités</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Tarifs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">En voir plus</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white">Témoignages</a>
             </li>
           </ul>
-          <!--Navigation-->
-          <div id="mainNav" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white">L'appli</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white">Fonctionnalités</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white">Tarifs</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white">En voir plus</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-white">Témoignages</a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </nav>
-    </header>
-    <div class="b-example-divider"></div>
-    <!-- First Container -->
-    <main>
-      <div class="container p-3 bg-light">
-        <section>
-          <form
-            class="form-inline pull-right header-form col-lg-6 col-10"
-            action=""
-          >
-            <div class="box">
-              <div class="input-group mb-3">
-                <i class=" loupe bi bi-search"></i>
-                <input
-                  type="search"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="   Rechercher une oeuvre, un artiste..."
-                  aria-label="Search"
-                />
-              </div>
+      </div>
+    </nav>
+  </header>
+  <div class="b-example-divider"></div>
+  <!-- First Container -->
+  <main>
+    <div class="container p-3 bg-light">
+      <section>
+        <form class="form-inline pull-right header-form col-lg-6 col-10" action="">
+          <div class="box">
+            <div class="input-group mb-3">
+              <i class=" loupe bi bi-search"></i>
+              <input type="search" class="form-control" id="exampleFormControlInput1"
+                placeholder="   Rechercher une oeuvre, un artiste..." aria-label="Search" />
             </div>
-          </form>
-        </section>
-        <section>
-          <div class="container justify-content-start">
-            <ul class="list-group nav nav-justified">
-              <li>
-                <button type="button" class="btn btn-warning active btn-small">
-                  Toutes
-                </button>
-                <button type="button" class="btn btn-outline-primary btn-small">
-                  Concerts
-                </button>
-                <button type="button" class="btn btn-outline-primary btn-small">
-                  Performances
-                </button>
-                <button type="button" class="btn btn-outline-primary btn-small">
-                  Artistes
-                </button>
-                <button type="button" class="btn btn-outline-primary btn-small">
-                  Albums
-                </button>
-              </li>
-            </ul>
           </div>
-          <br />
-          <hr />
-        </section>
-        <!-- Third Container -->
-        <section id="section">
-          <p class="h2">En vedette</p>
-          <div class="row">
-            <div class="col-4">
-              <div class="card">
-                <img
-                  src="../assets/Assets_cards/Elektra.png"
-                  alt="Image de la première Carte"
-                  class="card-img-top carte"
-                  style="height: 20vh; max-width: 600px;"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Laser Like Water</h5>
-                  <p class="card-text">Par Jean-Sébastien Baillat, Ottomata et Patrick Trudeau.</p>
-                  <div class="row ">
-                    <div class="col-md-6 col-lg-8">
-            
-                    <p class="card-text" id="small-text"><i class="bi bi-calendar-event-fill"></i> 27 Février - 28 Mars 2020</p>
+        </form>
+      </section>
+      <section>
+        <div class="container justify-content-start">
+          <ul class="list-group nav nav-justified">
+            <li>
+              <button type="button" class="btn btn-warning active btn-small">
+                Toutes
+              </button>
+              <button type="button" class="btn btn-outline-primary btn-small">
+                Concerts
+              </button>
+              <button type="button" class="btn btn-outline-primary btn-small">
+                Performances
+              </button>
+              <button type="button" class="btn btn-outline-primary btn-small">
+                Artistes
+              </button>
+              <button type="button" class="btn btn-outline-primary btn-small">
+                Albums
+              </button>
+            </li>
+          </ul>
+        </div>
+        <br />
+        <hr />
+      </section>
+      <!-- Third Container -->
+      <section id="section">
+        <p class="h2">En vedette</p>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img src="../assets/Assets_cards/Elektra.png" alt="Image de la première Carte" class="card-img-top carte"
+                style="max-height: 20vh; max-width: 600px;" />
+              <div class="card-body">
+                <h5 class="card-title">Laser Like Water</h5>
+                <p class="card-text">Par Jean-Sébastien Baillat, Ottomata et Patrick Trudeau.</p>
+                <div class="row ">
+                  <div class="col-md-6 col-lg-8">
+
+                    <p class="card-text" id="small-text"><i class="bi bi-calendar-event-fill"></i> 27 Février - 28 Mars
+                      2020</p>
                   </div>
-                  <div class="col-md-6 col-lg-4">                    
+                  <div class="col-md-6 col-lg-4">
                     <p class="card-text" id="small-text"><i class="bi bi-clock-fill"></i>18H</p>
                   </div>
-                  </div>
-                  <a href="https://www.elektramontreal.ca/gallery-laser-like-water?lang=fr" class="card-text link">Plus d'info ></a>
                 </div>
+                <a href="https://www.elektramontreal.ca/gallery-laser-like-water?lang=fr" class="card-text link">Plus
+                  d'info ></a>
               </div>
             </div>
-            <div class="col-4">
-              <div class="card">
-                <img
-                  src="../assets/Assets_cards/artechouse.PNG"
-                  alt="Image de la première Carte"
-                  class="card-img-top carte"
-                  style="height: 20vh; max-width: 600px;"
-                />
-                <div class="card-body">
-                  <h5 class="card-title text-uppercase">Magentaverse</h5>
-                  <p class="card-text">Par Pantone, NASA, Motorola</p>
-                  <div class="row ">
-                    <div class="col-md-6 col-lg-8">
-            
-                      <p class="card-text" id="small-text"><i class="bi bi-calendar-event-fill"></i> Mercredi - Lundi</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4">                    
-                      <p class="card-text" id="small-text"><i class="bi bi-clock-fill"></i>13H - 20H</p>
-                    </div>
-                    <a href="https://www.artechouse.com/program/magentaverse-miami/" class="card-text link">Plus d'info ></a>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="../assets/Assets_cards/artechouse.PNG" alt="Image de la première Carte"
+                class="card-img-top carte" style="max-height: 20vh; max-width: 600px;" />
+              <div class="card-body">
+                <h5 class="card-title text-uppercase">Magentaverse</h5>
+                <p class="card-text">Par Pantone, NASA, Motorola</p>
+                <div class="row ">
+                  <div class="col-md-6 col-lg-8">
 
+                    <p class="card-text" id="small-text"><i class="bi bi-calendar-event-fill"></i> Mercredi - Lundi</p>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="card">
-                <img
-                  src="../assets/Assets_cards/FutuRetro.jpg"
-                  alt="Image de la première Carte"
-                  class="card-img-top carte"
-                  style="height: 20vh; max-width: 600px;"
-                />
-                <div class="card-body">
-                  <h5 class="card-title text-decoration-uppercase"></h5>
-                  <p class="card-text">Description</p>
+                  <div class="col-md-6 col-lg-4">
+                    <p class="card-text" id="small-text"><i class="bi bi-clock-fill"></i>13H - 20H</p>
+                  </div>
+                  <a href="https://www.artechouse.com/program/magentaverse-miami/" class="card-text link">Plus d'info
+                    ></a>
+
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <!-- Fourth Container -->
-        <section>
-          <p class="h2">Autres</p>
-          <div class="col">
+          <div class="col-4">
             <div class="card">
-              <img
-                src=""
-                alt="Image de la première Carte"
-                class="card-img-top"
-                style="height: 20vh"
-              />
+              <img src="../assets/Assets_cards/FutuRetro.jpg" alt="Image de la première Carte"
+                class="card-img-top carte" style="height: 20vh; max-width: 600px;" />
               <div class="card-body">
-                <h5 class="card-title">Titre</h5>
-                <p class="card-text">Description</p>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src=""
-                alt="Image de la première Carte"
-                class="card-img-top"
-                style="height: 20vh"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Titre</h5>
-                <p class="card-text">Description</p>
-              </div>
-            </div>
-            <div class="card">
-              <img
-                src=""
-                alt="Image de la première Carte"
-                class="card-img-top"
-                style="height: 20vh"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Titre</h5>
-                <p class="card-text">Description</p>
+                <h5 class="card-title text-decoration-uppercase">The Future that we lost</h5>
+                <p class="card-text">Par Gao Wenqian</p>
+                <div class="row ">
+                  <div class="col-md-6 col-lg-8">
+
+                    <p class="card-text" id="small-text"><i class="bi bi-calendar-event-fill"></i> 25-29 Mai</p>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <p class="card-text" id="small-text"><i class="bi bi-clock-fill"></i></p>
+                  </div>
+                  <a href="https://www.2022.adaf.gr/program/the-future-that-we-lost/" class="card-text link">Plus
+                    d'info</a>
+                </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    </main>
-    <!-- Footer -->
-    <footer class="text-center text-lg-start navbar-fixed-bottom">
-      <div class="container justify-space-between">
-        <div class="row">
-          <div class="col-lg-6">
-            <p>
-              Pierre-Luc Proulx <br />
-              Antoine Dion
-            </p>
-            <p>
-              Projet fictif réalisé dans le cadre du cours Optimisation Web
-              582-424MO.
-            </p>
-            <hr />
-            <p>©2023</p>
+      </section>
+      <!-- Fourth Container -->
+      <section>
+        <p class="h2">Autres</p>
+        <div class="col">
+          <div class="card">
+            <img src="" alt="Image de la première Carte" class="card-img-top" style="height: 20vh" />
+            <div class="card-body">
+              <h5 class="card-title">Titre</h5>
+              <p class="card-text">Description</p>
+            </div>
           </div>
-          <div class="col-lg-6">
-            <svg
-              width="300"
-              height="100"
-              class="logo-tim"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1202.33 303.71"
-              style="fill: rgb(255, 0, 59)"
-            >
-              <circle cx="1113.33" cy="161.28" r="89"></circle>
-              <path
-                d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z"
-              ></path>
-            </svg>
+          <div class="card">
+            <img src="" alt="Image de la première Carte" class="card-img-top" style="height: 20vh" />
+            <div class="card-body">
+              <h5 class="card-title">Titre</h5>
+              <p class="card-text">Description</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="" alt="Image de la première Carte" class="card-img-top" style="height: 20vh" />
+            <div class="card-body">
+              <h5 class="card-title">Titre</h5>
+              <p class="card-text">Description</p>
+            </div>
           </div>
         </div>
+      </section>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start navbar-fixed-bottom">
+    <div class="container justify-space-between">
+      <div class="row">
+        <div class="col-lg-6">
+          <p>
+            Pierre-Luc Proulx <br />
+            Antoine Dion
+          </p>
+          <p>
+            Projet fictif réalisé dans le cadre du cours Optimisation Web
+            582-424MO.
+          </p>
+          <hr />
+          <p>©2023</p>
+        </div>
+        <div class="col-lg-6">
+          <svg width="300" height="100" class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71"
+            style="fill: rgb(255, 0, 59)">
+            <circle cx="1113.33" cy="161.28" r="89"></circle>
+            <path
+              d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z">
+            </path>
+          </svg>
+        </div>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
