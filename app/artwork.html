@@ -38,11 +38,7 @@
           <span class="Title">First Life</span></a>
         <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
         </a>
-        <script>
-          function myFunction(x) {
-            x.classList.toggle("fa-thumbs-down");
-          }
-        </script>
+        <script src="../js/script.js"></script>
       </div>
       </div>
     </nav>
@@ -51,13 +47,40 @@
   <!-- First Container -->
   <main>
     <img src="../assets/Assets_cards/Elektra.png" style="height: 33%" alt="Elektra">
-    <section>
-      <div class="container p-4 bg-light">
+    <div class="container p-4 bg-light">
+      <section>
         <p class="h1">Laser Like Water</p>
-      </div>
-    </section>
 
+      </section>
+
+      <!-- Section accordéon formulaire -->
+      <section>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h1 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Réservez votre place
+              </button>
+            </h1>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <form id="form">
+                  <div class="list-group">
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </div>
   </main>
+
   <!-- Footer -->
   <footer class="text-center text-lg-start navbar-fixed-bottom">
     <div class="container justify-space-between">
