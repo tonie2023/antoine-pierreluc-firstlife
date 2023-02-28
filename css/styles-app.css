@@ -19,12 +19,20 @@ body {
 header {
   content: normal;
 }
+/* Bouton retour pour la page artwork.html*/
+.return {
+}
+
+a {
+  display: inline-block;
+}
 
 li {
   list-style-type: none;
   color: white;
   border-radius: 5px;
 }
+
 li a {
   padding: 2px;
   border-radius: 10px;
