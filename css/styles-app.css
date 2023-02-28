@@ -20,7 +20,26 @@ header {
   content: normal;
 }
 /* Bouton retour pour la page artwork.html*/
-.return {
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  color: greenyellow;
+}
+
+.fa:hover {
+  color: rgb(8, 155, 212);
+}
+
+.fa:hover::after {
+  position: absolute;
+  color: rgb(8, 155, 212);
+  content: "Donner un J'aime";
+  font-size: 20px;
+}
+
+.fa-thumbs-down {
+  color: red;
 }
 
 a {
