@@ -39,31 +39,31 @@ nav {
 }
 /* Styles cartes*/
 
-.card{
+.card {
   background-color: var(--carte);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.5s;
 }
 
-.card:hover{
+.card:hover {
   border: solid var(--blue) 3px;
 }
 
-.link{
+.link {
   color: rgb(5, 96, 201);
-  font-weight:bolder;
+  font-weight: bolder;
   transition: 0.3s;
 }
 
-.link:hover{
-  color:rgb(92, 168, 255);
+.link:hover {
+  color: rgb(92, 168, 255);
 }
-.carte{
+.carte {
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#small-text{
+#small-text {
   font-size: 12px;
 }
 
@@ -83,20 +83,18 @@ nav {
   font-size: 25px;
 }
 
-#section{
+#section {
   width: 140%;
 }
 
-
-.loupe{
+.loupe {
   position: absolute;
   padding: 5px;
-  z-index:1 ;
+  z-index: 1;
 }
 .logo {
   border-radius: 15px;
 }
-
 
 footer {
   content: normal;
