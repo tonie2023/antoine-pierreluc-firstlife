@@ -73,6 +73,9 @@ nav {
   transition: 0.5s;
 }
 
+a cardlink {
+  color: b;
+}
 .card:hover {
   border: solid var(--blue) 3px;
 }
@@ -117,6 +120,20 @@ nav {
 
 #section {
   width: 140%;
+}
+
+.nav-background {
+  background-image: url("../assets/Assets_cards/Elektra.png");
+  width: 100%;
+  height: 33%;
+  margin: 0;
+}
+.accordion-button {
+  background-color: var(--orange);
+}
+
+.artiste {
+  object-fit: cover;
 }
 
 .loupe {

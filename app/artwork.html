@@ -27,30 +27,37 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-fixed-top bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-fixed-top bg-transparent nav-background">
       <div class="container">
         <!-- Hamburger button -->
         <button type="button" onclick="location.href='index.html'" class="btn btn-secondary">
           <a class="back round"><i class="bi bi-chevron-left back round"></i></a>
           Retour
         </button>
-        <a class="navbar-brand text-white" href="index.html">
-          <span class="Title">First Life</span></a>
         <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
         </a>
-
-      </div>
       </div>
     </nav>
   </header>
   <div class="b-example-divider"></div>
+  </div>
   <!-- First Container -->
   <main>
-    <img src="../assets/Assets_cards/Elektra.png" style="height: 33%" alt="Elektra">
     <div class="container p-4 bg-light" style="border-radius: 15px;">
       <section>
         <p class="h1">Laser Like Water</p>
 
+        <h2>
+          Artiste/s
+        </h2>
+        <div class="card" style=" height:15%; margin-left: auto; margin-right: auto;">
+          <img src="../assets/Assets_cards/artistes/baillat-portrait.png" alt="Image de la première Carte"
+            class="card-img-top artiste" style="max-height: 20vh; max-width: 600px;" />
+          <div class="card-body">
+            <!-- Button trigger modal -->
+            <button href="#" data-toggle="modal" data-target="#ModalPL">En savoir plus</button>
+          </div>
+        </div>
       </section>
 
       <!-- Section accordéon formulaire -->
@@ -142,6 +149,27 @@
       </div>
     </div>
   </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="ModalPL" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+          <button type="button" class="btn btn-primary">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="../js/script.js"></script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
