@@ -29,13 +29,12 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-fixed-top bg-transparent nav-background">
       <div class="container">
-        <!-- Hamburger button -->
-        <button type="button" onclick="location.href='index.html'" class="btn btn-secondary">
+        <!-- Return button -->
+        <button type="button" onclick="location.href='index.html'" class="btn btn-secondary ">
           <a class="back round"><i class="bi bi-chevron-left back round"></i></a>
-          Retour
+
         </button>
         <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
-        </a>
       </div>
     </nav>
   </header>
@@ -45,22 +44,38 @@
   <main>
     <div class="container p-4 bg-light" style="border-radius: 15px;">
       <section>
-        <p class="h1">Laser Like Water</p>
+        <p class="display-1">Laser Like Water</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="text-secondary"><i class="bi bi-geo-alt text-secondary">Montréal, Canada</i></p>
+          </div>
+          <div class="col-6">
+            <h6 class="text-secondary"><i class=" mx-2 bi bi-calendar3 text-secondary"></i>27 Février - 28 Février</h6>
+          </div>
+        </div>
 
-        <h2>
+        <h3 class="p-2 bg-warning display-6">
           Artiste/s
-        </h2>
+        </h3>
         <div class="card" style=" height:15%; margin-left: auto; margin-right: auto;">
           <img src="../assets/Assets_cards/artistes/baillat-portrait.png" alt="Image de la première Carte"
             class="card-img-top artiste" style="max-height: 20vh; max-width: 600px;" />
           <div class="card-body">
             <!-- Button trigger modal -->
             <h4 class="card-title">Jean-Sébastien Baillat</h4>
+            <p class="card-text">Jean-Sébastien Baillat est né à Carcassonne (FR), il vit à Montréal (CA) Jean-Sébastien
+              Baillat,
+              il invente des œuvres depuis l'âge de 17 ans dans le milieu du design et des arts numériques.</p>
             <button class="btn" data-bs-toggle="modal" data-target="#ModalPL">En savoir plus</button>
           </div>
         </div>
       </section>
       <br>
+      <section>
+        <h3 class="p-3 bg-warning">
+          À propos de l'oeuvre
+        </h3>
+      </section>
 
       <!-- Section accordéon formulaire -->
       <section>
@@ -162,7 +177,9 @@
           </button>
         </div>
         <div class="modal-body">
-          ...
+          Reconnu pour son travail à travers Baillat Studio, ses performances vidéos en direct, ses projets audiovisuels
+          et ses installations, son travail explore la répétition, les constructions narratives abstraites, hypnotiques
+          et étranges. La transformation de la perception est au cœur de sa démarche. 
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
