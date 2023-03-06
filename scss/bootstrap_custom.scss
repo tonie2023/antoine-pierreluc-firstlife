@@ -1,0 +1,17 @@
+$blue: #3b7e9d;
+$border-radius: 0.4rem;
+$primary: #f36b62;
+$secondary: #5f5f71;
+
+/*ou dans ce format:*/
+$theme-colors: (
+  "light": #adedfb,
+  "dark": #000000,
+  "primary": #ff7f00,
+  "secondary": #0b0b53,
+  "info": #3c3c76,
+  "success": #4d9500,
+  "warning": #ffba3e,
+  "danger": #eb005f,
+);
+@import "../vendors/bootstrap-5.2.3/scss/bootstrap.scss";

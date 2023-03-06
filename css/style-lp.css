@@ -22,17 +22,30 @@ body {
 
 :root {
   --primary: #ff7f00;
-  --secondary: #0b0b53;
-  --third: white;
-  --fourth: #3c3c76;
-  --fifth: black;
-  --font_01: Montserrat;
-  --font_02: overpass;
 }
+:root {
+  --secondary: #0b0b53;
+}
+:root {
+  --third: white;
+}
+:root {
+  --fourth: #3c3c76;
+}
+:root {
+  --fifth: black;
+}
+
 /*------------------
  # Section fontes 
  -------------------*/
- 
+
+:root {
+  --font_01: Montserrat;
+}
+:root {
+  --font_02: overpass;
+}
 
 /*-----------------
  # Section Header 
@@ -60,16 +73,24 @@ main {
 /*--------------- 
 # Section Hero 
 -----------------*/
-
 #mainHero {
   width: 100%;
   padding-top: 130px;
 }
-#titre_fonctionalite {
-  width: 100%;
+.titre {
+  font-weight: bolder;
+  font-size: 50px;
 }
-#titre_testimonial {
-  width: 100%;
+.premier-texte {
+  font-weight: 900;
+  font-size: 35px;
+}
+.second-texte {
+  font-weight: 700;
+}
+.app {
+  margin-top: 20px;
+  aspect-ratio: 5/9;
 }
 .title {
   font-family: var(--font_01);
@@ -86,30 +107,6 @@ main {
   font-weight: 500;
   color: var(--fifth);
 }
-.section-features {
-  background-color: rgb(231, 225, 225);
-}
-#services {
-  width: 100%;
-}
-#temoignages {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.temoins {
-  height: 23vh;
-  object-fit: cover;
-}
-.nom {
-  font-family: var(--font_01);
-  color: var(--fourth);
-  font-weight: bolder;
-}
-.quote {
-  font-family: var(--font_02);
-  color: var(--fifth);
-  font-weight: 500;
-}
 .card {
   border: none;
 }
@@ -121,21 +118,6 @@ main {
   font-family: var(--font_02);
   color: var(--fourth);
 }
-.premier-texte {
-  font-weight: 900;
-  font-size: 35px;
-}
-.second-texte {
-  font-weight: 700;
-}
-.titre {
-  font-weight: bolder;
-  font-size: 50px;
-}
-.app {
-  margin-top: 20px;
-  aspect-ratio: 5/9;
-}
 .btn1 {
   color: var(--primary);
   border-color: var(--primary);
@@ -145,19 +127,42 @@ main {
   background-color: var(--primary);
   border: var(--primary);
 }
+/*--------------- 
+# Section Fonctionnalités
+-----------------*/
+#titre_fonctionalite {
+  width: 100%;
+}
+.section-features {
+  background-color: rgb(231, 225, 225);
+}
+#services {
+  width: 100%;
+}
+.txt-fontionalite {
+  font-family: var(--font_02);
+  color: var(--fifth);
+}
 .bi-table {
   font-size: 40px;
   color: var(--fourth);
 }
-.bi-chat-square-quote-fill {
+.bi-envelope-at {
+  z-index: 1;
   position: absolute;
+  top: 32px;
+  left: 22px;
+  margin-right: 10px;
+  font-size: 25px;
+  color: var(--fourth);
+  font-weight: bolder;
+}
+.bi-chat-square-quote-fill {
+  /*position: absolute;
   left: 80px;
-  top: 228px;
+  top: 228px;*/
   font-size: 25px;
   color: var(--secondary);
-}
-.card-testimonial {
-  background-color: rgb(234, 229, 229);
 }
 .bi-calendar3 {
   font-size: 40px;
@@ -175,7 +180,6 @@ main {
   font-size: 40px;
   color: var(--fourth);
 }
-
 .bi-joystick {
   font-size: 40px;
   color: var(--fourth);
@@ -185,9 +189,126 @@ h4 {
   color: var(--fifth);
   font-weight: bolder;
 }
-.txt-fontionalite {
+/*--------------- 
+# Section Témoignages
+-----------------*/
+#titre_testimonial {
+  width: 100%;
+}
+#temoignages {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.temoins {
+  height: 23vh;
+  object-fit: cover;
+}
+.card-testimonial {
+  background-color: rgb(234, 229, 229);
+}
+.nom {
+  font-family: var(--font_01);
+  color: var(--fourth);
+  font-weight: bolder;
+}
+.quote {
   font-family: var(--font_02);
-  color: black;
+  color: var(--fifth);
+  font-weight: 500;
+}
+.btn2 {
+  background-color: var(--primary);
+  color: var(--fifth);
+  border-color: var(--primary);
+  font-family: var(--font_02);
+  font-weight: 600;
+}
+.btn2:hover {
+  background-color: var(--fifth);
+  color: var(--primary);
+  border: var(--primary);
+}
+/*--------------- 
+# Section FAQ
+-----------------*/
+#FAQ {
+  background-color: lightgray;
+}
+.titre-faq {
+  font-family: var(--font_01);
+  font-weight: bolder;
+  color: var(--fourth);
+}
+#faq-01 button {
+  font-family: var(--font_01);
+  font-weight: 800;
+  color: var(--fourth);
+}
+#faq-01,
+.accordion-body {
+  font-family: var(--font_02);
+  font-weight: 500;
+  color: var(--fifth);
+}
+#faq-02 button {
+  font-family: var(--font_01);
+  font-weight: 800;
+  color: var(--fourth);
+}
+#faq-03 button {
+  font-family: var(--font_01);
+  font-weight: 800;
+  color: var(--fourth);
+}
+#faq-04 button {
+  font-family: var(--font_01);
+  font-weight: 800;
+  color: var(--fourth);
+}
+/*--------------- 
+# Section Infolettre
+-----------------*/
+
+#infolettre {
+  background-image: url(assets/infolettre_couleur.jpg);
+  background-repeat: no-repeat;
+}
+.information {
+  background-color: var(--third);
+  border-radius: 5px 5px 5px 5px;
+  opacity: 70%;
+}
+.titre-infolettre {
+  font-family: var(--font_01);
+  font-weight: bolder;
+  color: var(--fourth);
+}
+.text-infolettre {
+  font-family: var(--font_02);
+  font-weight: 600;
+}
+.courriel {
+  position: relative;
+}
+.courriel .form-control {
+  left: 0.5rem;
+  padding-left: 3rem;
+}
+.modal-title {
+  font-family: var(--font_01);
+  font-weight: 800;
+}
+#abonnement {
+  font-family: var(--font_02);
+  font-weight: 600;
+}
+#fermeture-modal {
+  font-family: var(--font_02);
+  font-weight: 500;
+}
+.form-control {
+  font-family: var(--font_02);
+  font-weight: 500;
 }
 /*------------------------------- 
 # Section Footer(Pied de page) 
