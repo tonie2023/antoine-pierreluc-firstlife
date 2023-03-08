@@ -139,19 +139,23 @@ a cardlink {
   width: 140%;
 }
 
-.nav-background {
-  background-image: url("../assets/Assets_cards/Elektra.png");
-  width: 100%;
+
+
+.bg-transparent .nav-background
+{
   height: 33%;
-  margin: 0;
 }
+
 
 .accordion-button {
   background-color: var(--orange);
 }
 
-.artiste {
+.artist {
   object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 .loupe {
@@ -168,10 +172,18 @@ a cardlink {
 /*---------------------------------------------------------- 
     # Modal Windows
     ----------------------------------------------------------*/
+   .modal
+    {
+      border: solid rgb(144, 0, 255) 4px;
+    }
+
     .modal-body
     {
+      border-radius: 15px;
         background-color: #f3eb90;
     }
+
+    
 /*---------------------------------------------------------- 
     # Section Hero  
     ----------------------------------------------------------*/
