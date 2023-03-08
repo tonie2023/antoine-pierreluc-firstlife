@@ -27,37 +27,32 @@
 </head>
 
 <body>
-  <header>
-    <div
-    class="bg-image"
-    style="
-      background-image: url('../assets/Assets_cards/Elektra.png');
-      background-repeat: no-repeat;
-      background-size: cover;
-        background-position: center center;
-      height: 33vh;
-  
-      
-    "
-  >
-</div>
-    <nav class="navbar navbar-expand-lg navbar-fixed-top bg-transparent nav-background">
-      <div class="container">
-        <!-- Return button -->
-        <button type="button" onclick="location.href='index.html'" class="btn btn-secondary ">
-          <a class="back round"><i class="bi bi-chevron-left back round"></i></a>
+  <div class="bg-image img-responsive" style="
+    background: url('../assets/Assets_cards/Elektra.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 33vh;      
+    ">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-fixed-top bg-transparent nav-background">
+        <div class="container">
+          <!-- Return button -->
+          <button type="button" onclick="location.href='index.html'" class="btn btn-secondary ">
+            <a class="back round"><i class="bi bi-chevron-left back round"></i></a>
 
-        </button>
-        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
-      </div>
-    </nav>
-  </header>
-  <div class="b-example-divider"></div>
+          </button>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="b-example-divider"></div>
   </div>
-  
+
   <!-- First Container -->
   <main>
-    <div class="container p-4 bg-light" style="border-radius: 15px;">
+    <div class="container p-4 bg-light" style="border-radius: 15px; z-index: 1;">
       <section>
         <p class="display-1">Laser Like Water</p>
         <div class="row">
@@ -65,7 +60,8 @@
             <p class="text-secondary"><i class="bi bi-geo-alt text-secondary">Montréal, Canada</i></p>
           </div>
           <div class="col-6">
-            <h6 class="text-secondary"><i class=" mx-2 bi bi-calendar3 text-secondary"></i>27 Février - 28 Février</h6>
+            <h6 class="text-secondary"><i class=" mx-2 bi bi-calendar3 text-secondary"></i>27 Février - 28 Février
+            </h6>
           </div>
         </div>
 
@@ -78,10 +74,13 @@
           <div class="card-body">
             <!-- Button trigger modal -->
             <h4 class="card-title">Jean-Sébastien Baillat</h4>
-            <p class="card-text">Jean-Sébastien Baillat est né à Carcassonne (FR), il vit à Montréal (CA) Jean-Sébastien
+            <p class="card-text">Jean-Sébastien Baillat est né à Carcassonne (FR), il vit à Montréal (CA)
+              Jean-Sébastien
               Baillat,
               il invente des œuvres depuis l'âge de 17 ans dans le milieu du design et des arts numériques.</p>
-            <button class="btn" data-bs-toggle="modal" data-bs-target="#smallModal">En savoir plus</button>
+            <button class="btn" data-bs-toggle="modal" data-bs-target="#smallModal">En savoir plus
+
+            </button>
           </div>
         </div>
       </section>
@@ -91,8 +90,11 @@
           À propos de l'oeuvre
         </h3>
         <p class="px-5 h6 " align="justify">
-          Synesthésie de la lumière sur la musique, le laser matérialise la puissance du son dans l’espace. Les énergies
-          se rencontrent pour provoquer une expérience intense, une connexion des matières, une synergie dans l’espace.
+          Synesthésie de la lumière sur la musique, le laser matérialise la puissance du son dans l’espace. Les
+          énergies
+          se rencontrent pour provoquer une expérience intense, une connexion des matières, une synergie dans
+          l’espace.
+
 
           ​
         </p>
@@ -187,8 +189,9 @@
       </div>
     </div>
   </footer>
+
   <!-- Modal -->
-  <div class="modal fade" id="smallModal"  tabindex="-1" role="dialog" aria-labelledby="ModalPL" aria-hidden="true">
+  <div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="ModalPL" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -198,9 +201,11 @@
           </button>
         </div>
         <div class="modal-body">
-          Reconnu pour son travail à travers Baillat Studio, ses performances vidéos en direct, ses projets audiovisuels
-          et ses installations, son travail explore la répétition, les constructions narratives abstraites, hypnotiques
-          et étranges. La transformation de la perception est au cœur de sa démarche. 
+          Reconnu pour son travail à travers Baillat Studio, ses performances vidéos en direct, ses projets
+          audiovisuels
+          et ses installations, son travail explore la répétition, les constructions narratives abstraites,
+          hypnotiques
+          et étranges. La transformation de la perception est au cœur de sa démarche.
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
@@ -211,7 +216,7 @@
       </div>
     </div>
   </div>
- 
+
 
   <script src="../js/script.js"></script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
