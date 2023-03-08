@@ -8,62 +8,126 @@
   --carte: #f7f2d2;
   --textTitre: "Gugi", cursive;
   --orange: rgb(194, 113, 6);
+  --font_01: Montserrat;
+  --font_02: overpass;
 }
+
 
 html,
 body {
   background-color: var(--darkblue);
   overflow-x: hidden;
+  font-family: var(--font_01);
 }
 
 header {
   content: normal;
 }
 
-li {
-  list-style-type: none;
+/* Bouton retour pour la page artwork.html*/
+
+
+button .bi {
   color: white;
-  border-radius: 5px;
-}
-li a {
-  padding: 2px;
-  border-radius: 10px;
-}
-li a:hover {
-  background-color: var(--orange);
 }
 
-nav {
-  background-color: var(--blue);
+
+.nav-link {
   color: white;
+  margin-left: 30px;
+  font-family: var(--font_01);
+  font-weight: 500;
 }
+
+.bi {
+  color: black;
+  font-weight: bolder;
+}
+
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  color: greenyellow;
+  transition: 0.2s;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.fa:hover {
+  color: rgb(8, 155, 212);
+}
+
+.fa:hover::after {
+  position: absolute;
+  color: rgb(8, 155, 212);
+  font-family: Arial, Helvetica, sans-serif;
+  content: "";
+  font-size: 20px;
+}
+
+.fa-thumbs-down {
+  color: red;
+}
+
+.bg-warning {
+  border-radius: 15px;
+}
+
 /* Styles cartes*/
 
-.card{
+.card {
   background-color: var(--carte);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.5s;
 }
 
-.card:hover{
+.btn {
+  border: solid var(--orange) 2px;
+}
+
+.btn-send {
+  border: solid green 1px;
+}
+
+.btn-send:hover {
+  background-color: green;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: white;
+}
+
+a cardlink {
+  font-family: var(--font_01);
+}
+
+.card:hover {
   border: solid var(--blue) 3px;
 }
 
-.link{
+.link {
   color: rgb(5, 96, 201);
-  font-weight:bolder;
+  font-weight: bolder;
   transition: 0.3s;
 }
 
-.link:hover{
-  color:rgb(92, 168, 255);
+.link:hover {
+  color: rgb(92, 168, 255);
 }
-.carte{
+
+.carte {
   object-fit: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#small-text{
+.artist {
+  border-radius: 50%;
+}
+
+#small-text {
   font-size: 12px;
 }
 
@@ -83,21 +147,58 @@ nav {
   font-size: 25px;
 }
 
-#section{
+#section {
   width: 140%;
 }
 
 
-.loupe{
+
+.bg-transparent .nav-background
+{
+  height: 33%;
+}
+
+
+.accordion-button {
+  background-color: var(--orange);
+}
+
+.artist {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.loupe {
   position: absolute;
   padding: 5px;
-  z-index:1 ;
+  z-index: 1;
 }
+
 .logo {
   border-radius: 15px;
 }
 
 
+/*---------------------------------------------------------- 
+    # Modal Windows
+    ----------------------------------------------------------*/
+   .modal
+    {
+      border: solid rgb(144, 0, 255) 4px;
+    }
+
+    .modal-body
+    {
+      border-radius: 15px;
+        background-color: #f3eb90;
+    }
+
+    
+/*---------------------------------------------------------- 
+    # Section Hero  
+    ----------------------------------------------------------*/
 footer {
   content: normal;
   padding: 1rem;
@@ -107,6 +208,26 @@ footer {
   border-radius: 15px;
 }
 
-/*---------------------------------------------------------- 
-    # Section Hero  
-    ----------------------------------------------------------*/
+a {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  border-radius: 5px;
+}
+
+li a {
+  padding: 2px;
+  border-radius: 10px;
+}
+
+li a:hover {
+  background-color: var(--orange);
+}
+
+nav {
+  background-color: var(--blue);
+  color: white;
+}

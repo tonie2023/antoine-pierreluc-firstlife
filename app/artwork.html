@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Source+Sans+Pro:wght@200;400&display=swap"
+    rel="stylesheet" />
+  <!-- Add like icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+  <!-- Titre de la page -->
+  <title>First Life Landing Page</title>
+  <!-- Lien vers la feuille de style CSS -->
+  <link href="../css/styles-app.css" rel="stylesheet" type="text/css" />
+  <title>Landing Page Project</title>
+</head>
+
+<body>
+  <header>
+    <div
+    class="bg-image"
+    style="
+      background-image: url('../assets/Assets_cards/Elektra.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+        background-position: center center;
+      height: 33vh;
+  
+      
+    "
+  >
+</div>
+    <nav class="navbar navbar-expand-lg navbar-fixed-top bg-transparent nav-background">
+      <div class="container">
+        <!-- Return button -->
+        <button type="button" onclick="location.href='index.html'" class="btn btn-secondary ">
+          <a class="back round"><i class="bi bi-chevron-left back round"></i></a>
+
+        </button>
+        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+      </div>
+    </nav>
+  </header>
+  <div class="b-example-divider"></div>
+  </div>
+  
+  <!-- First Container -->
+  <main>
+    <div class="container p-4 bg-light" style="border-radius: 15px;">
+      <section>
+        <p class="display-1">Laser Like Water</p>
+        <div class="row">
+          <div class="col-6">
+            <p class="text-secondary"><i class="bi bi-geo-alt text-secondary">Montréal, Canada</i></p>
+          </div>
+          <div class="col-6">
+            <h6 class="text-secondary"><i class=" mx-2 bi bi-calendar3 text-secondary"></i>27 Février - 28 Février</h6>
+          </div>
+        </div>
+
+        <h3 class="p-2 bg-warning display-6">
+          Artiste/s
+        </h3>
+        <div class="card" style=" height:15%; margin-left: auto; margin-right: auto;">
+          <img src="../assets/Assets_cards/artistes/baillat-portrait.png" alt="Image de la première Carte"
+            class="card-img-top artiste" style="max-height: 20vh; max-width: 600px;" />
+          <div class="card-body">
+            <!-- Button trigger modal -->
+            <h4 class="card-title">Jean-Sébastien Baillat</h4>
+            <p class="card-text">Jean-Sébastien Baillat est né à Carcassonne (FR), il vit à Montréal (CA) Jean-Sébastien
+              Baillat,
+              il invente des œuvres depuis l'âge de 17 ans dans le milieu du design et des arts numériques.</p>
+            <button class="btn" data-bs-toggle="modal" data-bs-target="#smallModal">En savoir plus</button>
+          </div>
+        </div>
+      </section>
+      <br>
+      <section>
+        <h3 class="p-3 bg-warning">
+          À propos de l'oeuvre
+        </h3>
+        <p class="px-5 h6 " align="justify">
+          Synesthésie de la lumière sur la musique, le laser matérialise la puissance du son dans l’espace. Les énergies
+          se rencontrent pour provoquer une expérience intense, une connexion des matières, une synergie dans l’espace.
+
+          ​
+        </p>
+      </section>
+
+      <!-- Section accordéon formulaire -->
+      <section>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h1 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Réservez votre place
+              </button>
+            </h1>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <form id="form">
+                  <div class="list-group">
+                    <h5>
+                      Infomations personnelles pour votre réservation
+                    </h5>
+                    <div data-acc-content="" style="display: block;">
+                      <div class="my-3">
+                        <div class="row">
+                          <div class="col-6">
+                            <div class="form-group">
+                              <label>Nom:</label>
+                              <input type="text" name="name" class="form-control" placeholder="Entrer votre nom ici">
+                            </div>
+                          </div>
+                          <div class="col-6">
+                            <div class="form-group">
+                              <label>Prénom:</label>
+                              <input type="text" name="name" class="form-control" placeholder="Entrer votre prénom ici">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label>Courriel:</label>
+                          <input type="text" name="email" class="form-control" placeholder="123@gmail.com">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S"
+                          data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback">
+                        </div>
+                        <input class="form-control d-none" data-recaptcha="true" required
+                          data-error="Please complete the Captcha">
+                        <div class="help-block with-errors"></div>
+                      </div>
+                      <input type="submit" class="mt-3 btn btn-success btn-send" value="Envoyer réservation">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start navbar-fixed-bottom">
+    <div class="container justify-space-between">
+      <div class="row">
+        <div class="col-lg-6">
+          <p>
+            Pierre-Luc Proulx <br />
+            Antoine Dion
+          </p>
+          <p>
+            Projet fictif réalisé dans le cadre du cours Optimisation Web
+            582-424MO.
+          </p>
+          <hr />
+          <p>©2023</p>
+        </div>
+        <div class="col-lg-6">
+          <svg width="300" height="100" class="logo-tim" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202.33 303.71"
+            style="fill: rgb(255, 0, 59)">
+            <circle cx="1113.33" cy="161.28" r="89"></circle>
+            <path
+              d="M785.69 166.81l16.26 16.26 16.26-16.26L930.56 54.46v226.25h-257V54.67l112.13 112.14zM650.56.71v303h303V.71h-1.77L801.95 150.54 652.12.71h-1.56zM324.48.46v303h303V.46h-303zm129.93 129.93c-13.08 13.08-13.08 34.29 0 47.38 9.41 9.41 23.02 12.05 34.79 7.92l94.77 94.77H347.48v-257h257v236.49l-94.77-94.77c4.13-11.77 1.48-25.39-7.92-34.79-13.09-13.08-34.3-13.08-47.38 0zM206.47 0L0 206.48V303h303V0h-96.53zM23 280v-64l85.62-85.62 119.87 119.87L249 229.74 129.13 109.87 216 23h64v257H23z">
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="smallModal"  tabindex="-1" role="dialog" aria-labelledby="ModalPL" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalLabel">Jean-Sébastien Baillat</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reconnu pour son travail à travers Baillat Studio, ses performances vidéos en direct, ses projets audiovisuels
+          et ses installations, son travail explore la répétition, les constructions narratives abstraites, hypnotiques
+          et étranges. La transformation de la perception est au cœur de sa démarche. 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fermer
+          </button>
+          <button type="button" class="btn btn-primary">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+  <script src="../js/script.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+</html>
