@@ -12,7 +12,6 @@
   --font_02: overpass;
 }
 
-
 html,
 body {
   background-color: var(--darkblue);
@@ -26,11 +25,9 @@ header {
 
 /* Bouton retour pour la page artwork.html*/
 
-
 button .bi {
   color: white;
 }
-
 
 .nav-link {
   color: white;
@@ -125,6 +122,8 @@ a cardlink {
 
 .artist {
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 #small-text {
@@ -151,23 +150,16 @@ a cardlink {
   width: 140%;
 }
 
-
-
-.bg-transparent .nav-background
-{
+.bg-transparent .nav-background {
   height: 33%;
 }
-
 
 .accordion-button {
   background-color: var(--orange);
 }
 
-.artist {
+.artiste {
   object-fit: cover;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
 }
 
 .loupe {
@@ -180,22 +172,18 @@ a cardlink {
   border-radius: 15px;
 }
 
-
 /*---------------------------------------------------------- 
     # Modal Windows
     ----------------------------------------------------------*/
-   .modal
-    {
-      border: solid rgb(144, 0, 255) 4px;
-    }
+.modal {
+  border: solid rgb(144, 0, 255) 4px;
+}
 
-    .modal-body
-    {
-      border-radius: 15px;
-        background-color: #f3eb90;
-    }
+.modal-body {
+  border-radius: 15px;
+  background-color: #f3eb90;
+}
 
-    
 /*---------------------------------------------------------- 
     # Section Hero  
     ----------------------------------------------------------*/
