@@ -7,12 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex" />
   <meta name="robots" content="nofollow" />
-  <title>Landing page</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <title>Festival First Life</title>
+  <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      href="css/bootstrap_custom.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   <link rel="stylesheet" href="/css/style-lp.css" />
 </head>
 
@@ -24,26 +36,48 @@
         <a href="index.html">
           <img class="logo" src="assets/first_life_logo.png" alt="logo" />
         </a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
-          aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Affichage/masquage de la navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div id="mainNav" class="collapse navbar-collapse">
           <ul class="navbar-nav text-end">
             <li class="nav-item">
-              <a href="index.html#hero" class="nav-link active">L'appli</a>
+              <a href="index.html#mainHero" class="nav-link active">L'appli</a>
             </li>
             <li class="nav-item">
-              <a href="index.html#fonctionnalites" class="nav-link active">Fonctionnalités</a>
+              <a href="index.html#section-features" scroll-behavior:smooth class="nav-link active"
+                >Fonctionnalités</a
+              >
             </li>
             <li class="nav-item">
-              <a href="index.html#tarifs" class="nav-link active">Tarifs</a>
+              <a href="index.html" class="nav-link active">Tarifs</a>
             </li>
             <li class="nav-item">
-              <a href="index.html#voir-plus" class="nav-link active">En voir plus</a>
+              <a href="index.html#voir-plus" class="nav-link active"
+                >Voir plus</a
+              >
             </li>
             <li class="nav-item">
-              <a href="index.html#temoignages" class="nav-link active">Témoignages</a>
+              <a href="index.html#FAQ" class="nav-link active"
+                >FAQ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#section-testimonials" class="nav-link active"
+                >Témoignages</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#infolettre" class="nav-link active"
+                >Infolettre</a
+              >
             </li>
           </ul>
         </div>
@@ -67,143 +101,152 @@
             </button>
           </div>
           <div class="col-12 col-lg-4">
-            <div class="mobile">
-              <iframe class="app" src="app/index.html" height="550px" width="76%" style="
-                    border-radius: 20px 20px 20px 20px;
-                    border: none;
-                    box-shadow: 1px 3px 9px 0px black;
-                  " frameborder="0"></iframe>
+            <div class="mobile pb-4">
+              <iframe
+                class="app"
+                src="app/index.html"
+                height="550px"
+                width="76%"
+                style="
+                  border-radius: 20px 20px 20px 20px;
+                  border: none;
+                  box-shadow: 1px 3px 9px 0px black;
+                "
+                frameborder="0"
+              ></iframe>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <section class="hero">
-      <section class="section-features pt-5 pb-5">
+    <section class="hero pt-5 pb-5">
+      <section id="section-features" class="pt-5 pb-5">
         <div class="container text-center text-lg-start">
           <div class="row justify-content-center">
             <div id="titre_fonctionalite" class="col 12 col-lg-8 justify-content-center">
-              <h2 class="fonctions text-center text-lg-center pt-2 pb-2">
-                Fonctionnalités
-              </h2>
-              <p class="contexte text-center text-lg-center pt-2 pb-2">
-                En téléchargeant notre appli, vous allez profiter d'une
-                foule de fonctionnalités qui vous permettront de vivre une
-                expérience totale et<br> complète lors des expositions et des
-                performances du festival.
-              </p>
-            </div>
-            <div id="services" class="row justify-content-center">
-              <div class="col-sm-6 col-lg-6 pt-3 pb-3">
-                <div class="card">
-                  <div class="row">
-                    <div class="col-lg-1">
-                      <i class="bi bi-table" class="card-img-top img-fluid"></i>
-                    </div>
-                    <div class="col-12 col-lg-10">
-                      <div class="card-body">
-                        <h4 class="h4">Programmation complète et modulable</h4>
-                        <p class="txt-fonctionalite">Visionnez en un éclair tout ce qui s'offre à vous : oeuvres, expos
-                          et performances selon un horaire bien précis. De plus, vous pourrez filtrer cette
-                          programmation en fonction de vos intérêts.</p>
+                <h2 class="fonctions text-center text-lg-center pt-2 pb-2">
+                  Fonctionnalités
+                </h2>
+                <p class="contexte text-center text-lg-center pt-2 pb-2">
+                  En téléchargeant notre appli, vous allez profiter d'une
+                  foule de fonctionnalités qui vous permettront de vivre une
+                  expérience totale et complète lors des expositions et des
+                  performances du festival.
+                </p>
+              </div>
+              <div id="services" class="row justify-content-center">
+                <div class="col-sm-6 col-lg-6 pt-3 pb-3">
+                  <div class="card">
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <i class="bi bi-table ps-3" class="card-img-top img-fluid"></i>
+                      </div>
+                      <div class="col-12 col-lg-10">
+                        <div class="card-body">
+                          <h4 class="h4">Programmation complète et modulable</h4>
+                          <p class="txt-fonctionalite">Visionnez en un éclair tout ce qui s'offre à vous : oeuvres, expos et performances selon un horaire bien précis. De plus, vous pourrez filtrer cette programmation en fonction de vos intérêts.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-6 pt-3">
-                <div class="card">
-                  <div class="row">
-                    <div class="col-lg-1">
-                      <i class="bi bi-calendar3" class="card-img-top img-fluid"></i>
-                    </div>
-                    <div class="col-12 col-lg-10">
-                      <div class="card-body">
-                        <h4 class="h4">Création d'un horaire personalisé</h4>
-                        <p class="txt-fonctionalite">Dans l'appli, appuyez sur Aimer pour certaines activités, oeuvres
-                          ou performances afin de vous construire un horaire personnalisé et ainsi ne rien manquer.</p>
+                <div class="col-sm-6 col-lg-6 pt-3 pb-3">
+                  <div class="card">
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <i class="bi bi-calendar3 ps-3" class="card-img-top img-fluid"></i>
+                      </div>
+                      <div class="col-12 col-lg-10">
+                        <div class="card-body">
+                          <h4 class="h4">Création d'un horaire personalisé</h4>
+                          <p class="txt-fonctionalite">Dans l'appli, appuyez sur Aimer pour certaines activités, oeuvres ou performances afin de vous construire un horaire personnalisé et ainsi ne rien manquer.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-6 pb-3">
-                <div class="card">
-                  <div class="row">
-                    <div class="col-lg-1">
-                      <i class="bi bi-postcard" class="card-img-top img-fluid"></i>
-                    </div>
-                    <div class="col-12 col-lg-10">
-                      <div class="card-body">
-                        <h4 class="h4">Catalogue des oeuvres et artistes</h4>
-                        <p class="txt-fonctionalite">Fouillez parmi des centaines d'oeuvres, classées par artiste, par
-                          type d'oeuvre ou par année d'édition du festival. Cette section regorge de contenus qui vous
-                          permettent d'avoir une meilleure vision des oeuvres présentées, ainsi qu'une grande quantité
-                          de médias qui les documentent.</p>
+                <div class="col-sm-6 col-lg-6 pt-3 pb-3">
+                  <div class="card">
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <i class="bi bi-postcard ps-3" class="card-img-top img-fluid"></i>
+                      </div>
+                      <div class="col-12 col-lg-10">
+                        <div class="card-body">
+                          <h4 class="h4">Catalogue des oeuvres et artistes</h4>
+                          <p class="txt-fonctionalite">Fouillez parmi des centaines d'oeuvres, classées par artiste, par type d'oeuvre ou par année d'édition du festival. Cette section regorge de contenus qui vous permettent d'avoir une meilleure vision des oeuvres présentées, ainsi qu'une grande quantité de médias qui les documentent.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-6">
-                <div class="card">
-                  <div class="row">
-                    <div class="col-lg-1">
-                      <i class="bi bi-shop" class="card-img-top img-fluid"></i>
-                    </div>
-                    <div class="col-12 col-lg-10">
-                      <div class="card-body">
-                        <h4 class="h4">Achat de billets intégré à l'appli</h4>
-                        <p class="txt-fonctionalite">Simplifiez-vous la vie et accédez à la réservation gratuite ou
-                          payante des différentes expositions ou performances et ce, à même l'appli, au bout des doigts.
-                        </p>
+                <div class="col-sm-6 col-lg-6 pt-3 pb-3">
+                  <div class="card">
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <i class="bi bi-shop ps-3" class="card-img-top img-fluid"></i>
+                      </div>
+                      <div class="col-12 col-lg-10">
+                        <div class="card-body">
+                          <h4 class="h4">Achat de billets intégré à l'appli</h4>
+                          <p class="txt-fonctionalite">Simplifiez-vous la vie et accédez à la réservation gratuite ou payante des différentes expositions ou performances et ce, à même l'appli, au bout des doigts.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-6 pb-3">
-                <div class="card">
-                  <div class="row">
-                    <div class="col-lg-1">
-                      <i class="bi bi-geo-fill" class="card-img-top img-fluid"></i>
-                    </div>
-                    <div class="col-12 col-lg-10">
-                      <div class="card-body">
-                        <h4 class="h4">Repérage d'amis sur la carte intéractive</h4>
-                        <p class="txt-fonctionalite">Partagez votre position avec vos amis qui participent au festival,
-                          demandez-leur la même chose et vous pourrez facilement vous retrouver pour apprécier l'art,
-                          tous ensemble, selon vos préférences communes.</p>
+                <div class="col-sm-6 col-lg-6 pt-3 pb-3">
+                  <div class="card">
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <i class="bi bi-geo-fill ps-3" class="card-img-top img-fluid"></i>
+                      </div>
+                      <div class="col-12 col-lg-10">
+                        <div class="card-body">
+                          <h4 class="h4">Repérage d'amis sur la carte intéractive</h4>
+                          <p class="txt-fonctionalite">Partagez votre position avec vos amis qui participent au festival, demandez-leur la même chose et vous pourrez facilement vous retrouver pour apprécier l'art, tous ensemble, selon vos préférences communes.</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-6">
-                <div class="card">
-                  <div class="row">
-                    <div class="col-lg-1">
-                      <i class="bi bi-joystick" class="card-img-top img-fluid"></i>
-                    </div>
-                    <div class="col-12 col-lg-10">
-                      <div class="card-body">
-                        <h4 class="h4">Contrôle de certaines oeuvres exposées</h4>
-                        <p class="txt-fonctionalite">Certaines oeuvres ou performances interactives vous offrent la
-                          possibilité d'y ajouter un peu de vous et de contrôler une partie de l'oeuvre ou de la
-                          scénographie. Tout ça, à même l'appli!</p>
+                <div class="col-sm-6 col-lg-6 pt-3 pb-3">
+                  <div class="card">
+                    <div class="row">
+                      <div class="col-lg-1">
+                        <i class="bi bi-joystick ps-3" class="card-img-top img-fluid"></i>
+                      </div>
+                      <div class="col-12 col-lg-10">
+                        <div class="card-body">
+                          <h4 class="h4">Contrôle de certaines oeuvres exposées</h4>
+                          <p class="txt-fonctionalite">Certaines oeuvres ou performances interactives vous offrent la possibilité d'y ajouter un peu de vous et de contrôler une partie de l'oeuvre ou de la scénographie. Tout ça, à même l'appli!</p>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div id="tarifs"></div>
+            <div id="voir-plus"></div>
           </div>
-          <div id="tarifs"></div>
-          <div id="voir-plus"></div>
-        </div>
         </div>
       </section>
-      <section class="section-testimonials pt-3 pb-5">
+      <section id="voir-plus" class="previsualisation pt-5 pb-5">
+        <h2 class="title text-center text-lg-center pt-3">Prévisualisez l'interface de l'appli</h2>
+
+        <div class="swiper" class="swiper-screenshots">
+          <div class="swiper-wrapper pt-3 pb-3">
+              <div class="swiper-slide"><img id="img1" src="https://images.unsplash.com/photo-1637416067365-2b5e7e8fe8fa? ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"></div>
+              <div class="swiper-slide"><img id="img1" src="https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"></div>
+              <div class="swiper-slide"><img id="img1" src="https://images.unsplash.com/photo-1646571734985-3105c84d4661?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"></div>
+          </div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+      </div>
+      </section>
+      <section id="section-testimonials" class="pt-5 pb-5">
         <div class="container-fluid text-center text-lg-start">
           <div class="enonce_02 col-12 col-lg-12 justify-content-center">
             <div id="titre_testimonial" class="col 12 col-lg-8 justify-content-center">
@@ -212,99 +255,72 @@
               </h2>
               <p class="contexte text-center text-lg-center pt-3">
                 En téléchargeant notre appli, vous allez profiter d'une
-                foule de fonctionnalités, mais également d"un espace de témoignages de gens ayant participés aux
-                évènements et aux performances du festival. Ce qui vous permettra de faire des choix éclairés sur les
-                évènements du festival dont les témoignages vous auront inspirés à choisir.
+                foule de fonctionnalités, mais également d"un espace de témoignages de gens ayant participés aux évènements et aux performances du festival. Ce qui vous permettra de faire des choix éclairés sur les évènements du festival dont les témoignages vous auront inspirés à choisir. 
               </p>
             </div>
           </div>
           <div id="temoignages" class="row justify-content-center pt-4 pb-4">
-            <div class="col-12 col-sm-6 col-lg-2">
+            <div class="col-12 col-sm-6 col-lg-3 pb-4">
               <div class="card-testimonial card">
                 <img src="assets/makiko.jpg" class="temoins card-img-top">
                 <div class="row">
-                  <div class="text-center">
-                    <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
-                  </div>
-                  <div class="recit card-body">
-                    <h5 class="nom text-center">Makiko</h5>
-                    <p class="quote text-center">J'ai beaucoup aimé l'exposition First Life du festival! J'ai trouvé que
-                      cela était pertinent et super intéressant. Je le recommande vivement!</p>
-                  </div>
+                    <div class="recit card-body">
+                      <h5 class="nom text-center"> <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>&nbsp;Makiko</h5>
+                      <p class="quote text-center">J'ai beaucoup aimé l'exposition First Life du festival! J'ai trouvé que cela était pertinent et super intéressant. Je le recommande vivement!</p>
+                    </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-2">
+            <div class="col-12 col-sm-6 col-lg-3 pb-4">
               <div class="card-testimonial card">
                 <img src="assets/rajesh.jpg" class="temoins card-img-top">
                 <div class="row">
-                  <div class="text-center">
-                    <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
-                  </div>
                   <div class="recit card-body">
-                    <h5 class="nom text-center">Rajesh</h5>
-                    <p class="quote text-center">J'ai trouvé que les expositions étaient réussit. Le festival offrait la
-                      possibilité d'avoir un guide ou d'aller explorer par nous même, ce que j'ai beaucoup apprécié!!!
-                    </p>
+                    <h5 class="nom text-center"><i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>&nbsp;Rajesh</h5>
+                    <p class="quote text-center">J'ai trouvé que les expositions étaient réussit. Le festival offrait la possibilité d'avoir un guide ou d'aller explorer par nous même, ce que j'ai beaucoup apprécié!!!</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-2">
+            <div class="col-12 col-sm-6 col-lg-3 pb-4">
               <div class="card-testimonial card">
                 <img src="assets/marie.jpg" class="temoins card-img-top">
                 <div class="row">
-                  <div class="text-center">
-                    <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
-                  </div>
                   <div class="recit card-body">
-                    <h5 class="nom text-center">Marie</h5>
-                    <p class="quote text-center">J'ai trouvé que ce festival était divertissant et qui gagne à être
-                      connu!</p>
+                    <h5 class="nom text-center"><i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>&nbsp;Marie</h5>
+                    <p class="quote text-center">J'ai trouvé que ce festival était divertissant et qui gagne à être connu!</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-2">
+            <div class="col-12 col-sm-6 col-lg-3">
               <div class="card-testimonial card">
                 <img src="assets/harry.jpg" class="temoins card-img-top">
                 <div class="row">
-                  <div class="text-center">
-                    <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
-                  </div>
                   <div class="recit card-body">
-                    <h5 class="nom text-center">Harry</h5>
-                    <p class="quote text-center">J'ai beaucoup aimé l'exposition immersia du festival! Je trouve que le
-                      festival offre une grande variété de choix pour tous le monde et est très attrayant pour les
-                      jeunes comme moi!</p>
+                    <h5 class="nom text-center"><i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>&nbsp;Harry</h5>
+                    <p class="quote text-center">J'ai beaucoup aimé l'exposition immersia du festival! Je trouve que le festival offre une grande variété de choix pour tous le monde et est très attrayant pour les jeunes comme moi!</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-2">
+            <div class="col-12 col-sm-6 col-lg-3 pt-4">
               <div class="card-testimonial card">
                 <img src="assets/jenna.jpg" class="temoins card-img-top">
                 <div class="row">
-                  <div class="text-center">
-                    <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
-                  </div>
                   <div class="recit card-body">
-                    <h5 class="nom text-center">Jenna</h5>
-                    <p class="quote text-center">J'ai beaucoup aimé et je recommande vivement ce festival innovant et
-                      immersif!!! Plus particulièrement la performance de l'artiste Juan Albos! </p>
+                    <h5 class="nom text-center"><i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>&nbsp;Jenna</h5>
+                    <p class="quote text-center">J'ai beaucoup aimé et je recommande vivement ce festival innovant et immersif!!! Plus particulièrement la performance de l'artiste Juan Albos! </p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 col-lg-2">
+            <div class="col-12 col-sm-6 col-lg-3 pt-4">
               <div class="card-testimonial card">
                 <img src="assets/roger.jpg" class="temoins card-img-top">
                 <div class="row">
-                  <div class="text-center">
-                    <i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>
-                  </div>
                   <div class="card-body">
-                    <h5 class="nom text-center">Roger</h5>
+                    <h5 class="nom text-center"><i class="bi bi-chat-square-quote-fill" class="card-img-top"></i>&nbsp;Roger</h5>
                     <p class="quote text-center">J'ai beaucoup aimé le festival!</p>
                   </div>
                 </div>
@@ -313,6 +329,104 @@
           </div>
         </div>
       </section>
+    </section>
+    <section class="pt-5 pb-5" id="FAQ">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <h1 class="titre-faq pb-4">FAQ - Foire aux questions</h1>
+          <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+          
+              <h2 class="accordion-header" id="faq-01">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefaq-01" aria-expanded="true" aria-controls="collapsefaq-01">
+                  Existe-t-il un forfait gratuit pour utiliser l'appli?
+                </button>
+              </h2>
+          
+              <div id="collapsefaq-01" class="accordion-collapse collapse show" aria-labelledby="faq-01" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Oui, tout à fait ! Vous pouvez utiliser l'appli gratuitement. Si vous souhaitez les fonctionnalités premium, alors dans ce cas vous avec 2 forfaits supplémentaires. Veuillez-vous référer à la section Tarifs de cette page pour en savoir plus.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+             <h2 class="accordion-header" id="faq-02">
+               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefaq-02" aria-expanded="true" aria-controls="collapsefaq-02">
+                Est-ce que l'appli nécessite l'accès au réseau cellulaire ou un forfait de données?
+               </button>
+             </h2>
+        
+             <div id="collapsefaq-02" class="accordion-collapse collapse show" aria-labelledby="faq-02" data-bs-parent="#accordionExample">
+               <div class="accordion-body">
+                Non le contenu est accessible hors ligne. Cependant certaines fonctionnalités ne pourront pas être activées, notamment la recherche de vos amis sur la carte ou encore l’option d’interagir avec les œuvres en direct via l’appli.
+               </div>
+             </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq-03">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefaq-03" aria-expanded="true" aria-controls="collapsefaq-03">
+                  Est-ce qu'il y a des mises-à-jour régulières pour l'appli?
+                </button>
+              </h2>
+         
+              <div id="collapsefaq-03" class="accordion-collapse collapse show" aria-labelledby="faq-03" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Oui, tout à fait ! À chaque semaine nous envoyons des mises-à-jour de nouvelles fonctionnalités, des correctifs et des mises-à-jour de sécurité.
+                </div>
+              </div>
+             </div>
+             <div class="accordion-item">
+              <h2 class="accordion-header" id="faq-04">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefaq-04" aria-expanded="true" aria-controls="collapsefaq-04">
+                  Si, je préfère ne pas être visible pour mes amis sur la carte du festival, est-ce que je peux désactiver cette option?
+                </button>
+              </h2>
+         
+              <div id="collapsefaq-04" class="accordion-collapse collapse show" aria-labelledby="faq-04" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Oui, tout à fait ! Votre confidentialité nous tient à cœur. Cette fonctionnalité ne sera active que si vous l'activez par vous-même
+                </div>
+              </div>
+             </div>
+           </div>
+         </div>
+       </div>
+    </section>
+    <section class="pt-5 pb-5 pe-5 bg-light" id="infolettre">
+      <div class="container-fluid text-center">
+        <div class="row justify-content-end ps-5">
+          <div class="information col-12 col-md-5 text-md-start pt-3 pb-3 ps-3 pe-3">
+             <h1 class="titre-infolettre">Infolettre</h1>
+             <p class="text-infolettre">Abonnez-vous à notre infolettre pour recevoir des nouvelles sur les mises-à-jour et nouvelles fonctionnalités de l'appli, en plus de recevoir en primeur les détails des prochaines éditions du festival.</p>
+             <button type="button" class="btn2 btn btn-primary" data-bs-toggle="modal" data-bs-target="#button_modal" >
+              Je m'abonne
+             </button>
+           </div>
+        </div>
+      </div>
+      <div class="modal fade" id="button_modal" tabindex="-1" aria-labelledby="button_modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="button_modalLabel">Restez informé!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <i class="bi bi-envelope-at"></i>
+              <form class="courriel">
+                <div class="mb-3 mt-3 ">
+                  <input type="email" class="form-control" id="courriel" placeholder= "Votre adresse courriel" name="email">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary" id="abonnement">M'inscrire</button>
+              <button type="button" class="btn btn-secondary" id="fermeture-modal" data-bs-dismiss="modal">Annuler</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
   <footer class="bd-footer">
@@ -326,18 +440,25 @@
         </div>
         <div class="col-sm-12 col-lg-9 text-center">
           <p class="artisans text-lg-end">
-            <a class="btn btn-outline-link" id="btn2" href="https://github.com/tonie2023/antoine-pierreluc-firstlife"
-              role="link">https://github.com/tonie2023/antoine-pierreluc-firstlife</a>
+            <a
+              class="btn btn-outline-link"
+              id="btn2"
+              href="https://github.com/tonie2023/antoine-pierreluc-firstlife"
+              role="link"
+              >https://github.com/tonie2023/antoine-pierreluc-firstlife</a
+            >
             <br />(c) 2023
           </p>
         </div>
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <script src="javacript.js"></script>
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/script.js"></script>
 </body>
-
 </html>

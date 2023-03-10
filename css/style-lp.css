@@ -133,7 +133,7 @@ main {
 #titre_fonctionalite {
   width: 100%;
 }
-.section-features {
+#section-features {
   background-color: rgb(231, 225, 225);
 }
 #services {
@@ -270,7 +270,7 @@ h4 {
 -----------------*/
 
 #infolettre {
-  background-image: url(/assets/infolettre_couleur.jpg);
+  background-image: url(assets/infolettre_couleur.jpg);
   background-repeat: no-repeat;
 }
 .information {
@@ -333,4 +333,21 @@ h4 {
 }
 #btn2:link {
   color: var(--third);
+}
+.swiper {
+  z-index: 1;
+  width: 50vh;
+  height: 50%;
+}
+.swiper-screenshots #img1 {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide #img1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border: 3px solid black;
+  border-radius: 20px 20px 20px 20px;
 }
