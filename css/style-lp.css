@@ -270,7 +270,7 @@ h4 {
 -----------------*/
 
 #infolettre {
-  background-image: url(assets/infolettre_couleur.jpg);
+  background-image: url(/assets/infolettre_couleur.jpg);
   background-repeat: no-repeat;
 }
 .information {
