@@ -101,10 +101,6 @@ a cardlink {
 }
 
 
-
-.card img{
-  min-height: ;
-}
 .card:hover {
   border: solid var(--blue) 3px;
 }
