@@ -72,14 +72,6 @@ button .bi {
   border-radius: 15px;
 }
 
-/* Styles cartes*/
-
-.card {
-  background-color: var(--carte);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.5s;
-}
-
 .btn {
   border: solid var(--orange) 2px;
 }
@@ -95,11 +87,24 @@ button .bi {
 .btn:hover {
   color: white;
 }
+/* Styles cartes*/
+
+.card {
+  background-color: var(--carte);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
 
 a cardlink {
   font-family: var(--font_01);
 }
 
+
+
+.card img{
+  min-height: ;
+}
 .card:hover {
   border: solid var(--blue) 3px;
 }
