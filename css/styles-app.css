@@ -36,6 +36,15 @@ button .bi {
   font-weight: 500;
 }
 
+.bg-image {
+  background: url("../assets/Assets_cards/Elektra.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 33vh;
+}
+
 .bi {
   color: black;
   font-weight: bolder;
@@ -95,11 +104,9 @@ button .bi {
   transition: 0.5s;
 }
 
-
 a cardlink {
   font-family: var(--font_01);
 }
-
 
 .card:hover {
   border: solid var(--blue) 3px;
@@ -133,7 +140,6 @@ a cardlink {
   color: white;
   transition: 0.5s ease-in-out;
 }
-
 
 .Title {
   margin: 20px;
@@ -216,7 +222,6 @@ nav {
   background-color: var(--blue);
   color: white;
 }
-
 
 /*--------------------------------------------------------- 
 # Styles du carroussel
