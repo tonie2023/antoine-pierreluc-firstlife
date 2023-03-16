@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Titre de la page -->
   <title>Festival First Life App</title>
+  <!-- Page icon -->
+  <link rel="icon" type="image/png" href="../assets/favicon.ico" />
   <link href="css/bootstrap_custom.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
@@ -100,56 +102,55 @@
 
         <!-- Slider main container -->
         <div class="container">
-          <div class="swiper mySwiper">
+          <div class="swiper-filters">
             <!-- Additional required wrapper -->
             <ul class="list-group nav nav-justified">
               <!-- Slides -->
               <div class="swiper-wrapper pt-3 pb-3">
                 <div class="swiper-slide">
-                  <li>
-                    <button type="button" class="btn btn-warning btn-small active">
-                      Toutes
-                    </button>
-                  </li>
+                  <button type="button" class="btn btn-warning btn-small active">
+                    Toutes
+                  </button>
                 </div>
                 <div class="swiper-slide">
-                  <li>
-                    <button type="button" class="btn btn-outline-primary btn-small">
-                      Concerts
-                    </button>
-                  </li>
+                  <button type="button" class="btn btn-outline-primary btn-small">
+                    Concerts
+                  </button>
                 </div>
                 <div class="swiper-slide">
-                  <li>
+                  <button type="button" class="btn btn-outline-primary btn-small">
+                    Installations interactives
+                  </button>
+                </div>
+                <div class="swiper-slide">
+                  <button type="button" class="btn btn-outline-primary btn-small">
+                    Performances
+                  </button>
+                  </div>
+                  <div class="swiper-slide">
                     <button type="button" class="btn btn-outline-primary btn-small">
-                      Performances
+                      AR / VR
                     </button>
-                  </li>
-                  <div class="swiper-slide">
-                    </li>
-                    <li>
-                      <button type="button" class="btn btn-outline-primary btn-small">
-                        Artistes
-                      </button>
-                    </li>
                   </div>
                   <div class="swiper-slide">
-                    <li>
-                      <button type="button" class="btn btn-outline-primary btn-small">
-                        Albums
-                      </button>
-                    </li>
+                    <button type="button" class="btn btn-outline-primary btn-small">
+                      Projections / Immersives
+                    </button>
                   </div>
-                  <!-- If we need pagination -->
-
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-                  </li>
-            </ul>
-          </div>
-        </div>
-        <br />
-        <hr />
+                  <div class="swiper-slide">
+                    <button type="button" class="btn btn-outline-primary btn-small">
+                      Artistes
+                    </button>
+                  </div>
+                  <div class="swiper-slide">
+                    <button type="button" class="btn btn-outline-primary btn-small">
+                      Albums
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <hr />
       </section>
 
       <section>
@@ -164,7 +165,7 @@
             <div class="swiper-slide">
               <div class="row">
                 <!-- Artiste 1-->
-                <div class="col-4">
+                <div class="col">
                   <div class="card">
                     <a href="artwork.html">
                       <img src="../assets/Assets_cards/Elektra.png" alt="Image de la première Carte"
@@ -200,7 +201,7 @@
               </div>
               <!-- Artiste 2-->
               <div class="swiper-slide">
-                <div class="col-4">
+                <div class="col-">
                   <div class="card">
                     <img src="../assets/Assets_cards/artechouse.PNG" alt="Image de la première Carte"
                       class="card-img-top carte" />
@@ -234,7 +235,7 @@
               </div>
               <!-- Artiste 3-->
               <div class="swiper-slide">
-                <div class="col-4">
+                <div class="col-">
                   <div class="card card1">
                     <img src="../assets/Assets_cards/FutuRetro.jpg" alt="Image de la première Carte"
                       class="card-img-top carte" style=" min-height: 20vh; max-width: 600px;" />

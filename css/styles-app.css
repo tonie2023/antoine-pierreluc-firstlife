@@ -113,7 +113,7 @@ button .bi {
 }
 
 .card-img-top {
-  min-height: 20vh;
+  height: 20vh;
   max-width: 100%;
 }
 
@@ -270,7 +270,7 @@ nav {
   display: flex;
   justify-content: start;
   align-items: flex-start;
-  width: 100px;
+  width: auto;
   padding: 5px;
 }
 

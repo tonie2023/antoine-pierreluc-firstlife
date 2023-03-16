@@ -1,4 +1,4 @@
-const swiper = new Swiper('.mySwiper', {
+const swiper = new Swiper('.swiper-filters', {
   direction: "horizontal",
   effect: "coverflow",
   grabCursor: true,
