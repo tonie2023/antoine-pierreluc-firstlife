@@ -117,9 +117,10 @@ button .bi {
   max-width: 100%;
 }
 
-a cardlink {
+a .cardlink {
   font-family: var(--font_01);
 }
+
 
 .card:hover {
   border: solid var(--blue) 3px;
@@ -269,7 +270,8 @@ nav {
   display: flex;
   justify-content: start;
   align-items: flex-start;
-  width: 50%;
+  width: 100px;
+  padding: 5px;
 }
 
 .swiper-button-prev {
