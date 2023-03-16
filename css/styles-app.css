@@ -1,6 +1,3 @@
-/*--------------------------------------------------------- 
-# Styles Généraux 
----------------------------------------------------------*/
 :root {
   --darkblue: #010355;
   --blue: #0056d6;
@@ -11,12 +8,15 @@
   --font_01: Montserrat;
   --font_02: overpass;
 }
+/*--------------------------------------------------------- 
+# Styles Généraux 
+---------------------------------------------------------*/
 
 html,
 body {
   background-color: var(--darkblue);
   overflow-x: hidden;
-  font-family: var(--font_01);
+  font-family: var(--font_02);
 }
 
 header {
@@ -34,6 +34,15 @@ button .bi {
   margin-left: 30px;
   font-family: var(--font_01);
   font-weight: 500;
+}
+
+.bg-image {
+  background: url("../assets/Assets_cards/Elektra.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 33vh;
 }
 
 .bi {
@@ -72,14 +81,6 @@ button .bi {
   border-radius: 15px;
 }
 
-/* Styles cartes*/
-
-.card {
-  background-color: var(--carte);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: 0.5s;
-}
-
 .btn {
   border: solid var(--orange) 2px;
 }
@@ -93,8 +94,19 @@ button .bi {
 }
 
 .btn:hover {
-  background-color: orange;
   color: white;
+}
+/* Styles cartes*/
+
+.card {
+  background-color: var(--carte);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.card-img-top {
+  min-height: 20vh;
+  max-width: 100%;
 }
 
 a cardlink {
@@ -120,6 +132,12 @@ a cardlink {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.card .artiste {
+  height: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .artist {
   border-radius: 50%;
   width: 50px;
@@ -131,17 +149,14 @@ a cardlink {
 }
 
 .navbar-toggler-icon:hover {
-  background-color: white;
-}
-
-.navbar-toggler-icon:active {
-  background-color: var(--orange);
+  color: white;
+  transition: 0.5s ease-in-out;
 }
 
 .Title {
   margin: 20px;
   content: normal;
-  font-family: var(--textTitre);
+  font-family: var(--font_01);
   color: var(--orange);
   font-size: 25px;
 }
@@ -152,6 +167,10 @@ a cardlink {
 
 .bg-transparent .nav-background {
   height: 33%;
+}
+
+.container .bg-light {
+  border-radius: 15px;
 }
 
 .accordion-button {
@@ -218,4 +237,22 @@ li a:hover {
 nav {
   background-color: var(--blue);
   color: white;
+}
+
+/*--------------------------------------------------------- 
+# Styles du carroussel
+---------------------------------------------------------*/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
 }
