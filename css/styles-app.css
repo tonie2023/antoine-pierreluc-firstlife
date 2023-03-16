@@ -58,17 +58,21 @@ button .bi {
 
 .btn {
   border: solid var(--orange) 2px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
 }
 
+
+
 .fa {
-  font-size: 50px;
+  font-size: 25px;
   cursor: pointer;
   user-select: none;
-  color: greenyellow;
+  color: rgb(109, 255, 47);
   transition: 0.2s;
-  padding: 10px;
-  background-color: white;
   border-radius: 50px;
+  display: inline-block;
 }
 
 .fa:hover {
@@ -220,6 +224,11 @@ footer {
 
 a {
   display: inline-block;
+  text-decoration: none;
+}
+
+.link:hover::after{
+  content: '->';
 }
 
 li {
