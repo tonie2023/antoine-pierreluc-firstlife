@@ -101,38 +101,50 @@
 
         <!-- Slider main container -->
         <div class="container">
-          <div class="swiper mySwiper">
+          <div class="swiper-container mySwiper">
             <!-- Additional required wrapper -->
             <ul class="list-group nav nav-justified">
               <!-- Slides -->
-              <div class="swiper-wrapper">
+              <div class="swiper-wrapper pt-3 pb-3">
                 <div class="swiper-slide">
                   <li>
-                    <button type="button" class="btn btn-warning active btn-small">
+                    <button type="button" class="btn btn-warning btn-small active">
                       Toutes
                     </button>
+                  </li>
                 </div>
                 <div class="swiper-slide">
-                  <button type="button" class="btn btn-outline-primary btn-small">
-                    Concerts
-                  </button>
-                </div>
-                <div class="swiper-slide">
-                  <button type="button" class="btn btn-outline-primary btn-small">
-                    Performances
-                  </button>
-                  <div class="swiper-slide">
+                  <li>
                     <button type="button" class="btn btn-outline-primary btn-small">
-                      Artistes
+                      Concerts
                     </button>
+                  </li>
+                </div>
+                <div class="swiper-slide">
+                  <li>
+                    <button type="button" class="btn btn-outline-primary btn-small">
+                      Performances
+                    </button>
+                  </li>
+                  <div class="swiper-slide">
+                    </li>
+                    <li>
+                      <button type="button" class="btn btn-outline-primary btn-small">
+                        Artistes
+                      </button>
+                    </li>
                   </div>
                   <div class="swiper-slide">
-                    <button type="button" class="btn btn-outline-primary btn-small">
-                      Albums
-                    </button>
+                    <li>
+                      <button type="button" class="btn btn-outline-primary btn-small">
+                        Albums
+                      </button>
+                    </li>
                   </div>
                   <!-- If we need pagination -->
-                  <div class="swiper-pagination"></div>
+
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
                   </li>
             </ul>
           </div>
@@ -327,7 +339,7 @@
           </div>
         </div>
     </div>
-  </div>
+    </div>
     </div>
   </main>
   <!-- Footer -->
@@ -358,6 +370,10 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
   <script src="../js/swiper.js"></script>
 </body>
 

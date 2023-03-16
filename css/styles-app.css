@@ -44,6 +44,7 @@ button .bi {
   background-position: center center;
   width: 100vw;
   height: 33vh;
+  margin-bottom: -50px;
 }
 
 .bi {
@@ -264,7 +265,24 @@ nav {
   text-align: center;
   font-size: 18px;
   background: #fff;
+  border-radius: 15px;
   display: flex;
   justify-content: start;
   align-items: flex-start;
+  width: 50%;
+}
+
+.swiper-button-prev {
+  width: 50px;
+  height: 60px;
+  border-radius: 50px 50px 50px 50px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+.swiper-button-next {
+  border-radius: 50px 50px 50px 50px;
+  width: 50px;
+  height: 60px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
 }
