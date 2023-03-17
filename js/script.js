@@ -4,7 +4,7 @@ function myFunction(x) {
 
 const swiper = new Swiper(".swiper-screenshots", {
   direction: "horizontal",
-  effect: "slider",
+  effect: "slide",
   loop: true,
   slidesPerView: 1,
   spaceBetween: 25,
