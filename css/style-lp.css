@@ -90,7 +90,7 @@ main {
 }
 .app {
   height: 625px;
-  max-width: 60%;
+  max-width: 65%;
   margin-top: 20px;
   aspect-ratio: 5/9;
 }
