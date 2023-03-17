@@ -1,15 +1,15 @@
-const swiper = new Swiper(".swiper-filters", {
+const swiper = new Swiper('.swiper-filters', {
   direction: "horizontal",
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: "auto",
+  slidesPerView: 'auto',
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
     depth: 100,
     modifier: 1,
-    slideShadows: true,
+    slideShadows : true,
   },
   breakpoints: {
     1200: {
@@ -19,4 +19,11 @@ const swiper = new Swiper(".swiper-filters", {
   },
 });
 
-const swiperr = new Swiper(".swiper-");
+const swiper2 = new Swiper('.swiper-featured-artworks',{
+  direction: "horizontal",
+  effect: "slider",
+  grabCursor: true,
+  centeredSlides: true,
+  loop: true,
+  slidePerView: 1,
+});
