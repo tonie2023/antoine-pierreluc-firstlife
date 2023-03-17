@@ -316,29 +316,8 @@ main {
   font-weight: 500;
 }
 /*------------------------------- 
-# Section Footer(Pied de page) 
+# Section caroussel(Swiper)
 --------------------------------*/
-
-.bd-footer {
-  background-color: var(--secondary);
-  height: 143px;
-  width: 100%;
-  font-family: var(--font_01);
-  font-weight: 500;
-}
-.artisans {
-  color: var(--third);
-}
-#btn2 {
-  color: var(--third);
-  padding: 0;
-}
-#btn2:hover {
-  color: var(--primary);
-}
-#btn2:link {
-  color: var(--third);
-}
 .swiper {
   z-index: 0;
   margin-top: -100px;
@@ -386,4 +365,29 @@ main {
 }
 .swiper-slide {
   opacity: 0.2;
+}
+
+/*------------------------------- 
+# Section Footer(Pied de page) 
+--------------------------------*/
+
+.bd-footer {
+  background-color: var(--secondary);
+  height: 143px;
+  width: 100%;
+  font-family: var(--font_01);
+  font-weight: 500;
+}
+.artisans {
+  color: var(--third);
+}
+#btn2 {
+  color: var(--third);
+  padding: 0;
+}
+#btn2:hover {
+  color: var(--primary);
+}
+#btn2:link {
+  color: var(--third);
 }
