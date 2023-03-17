@@ -275,13 +275,13 @@ main {
 -----------------*/
 
 #infolettre {
-  background-image: url(assets/infolettre_couleur.jpg);
+  background-image: url(/assets/infolettre_couleur.jpg);
   background-repeat: no-repeat;
 }
 .information {
   background-color: var(--third);
   border-radius: 5px 5px 5px 5px;
-  opacity: 70%;
+  opacity: 50%;
 }
 .titre-infolettre {
   font-family: var(--font_01);
