@@ -1,15 +1,15 @@
-const swiper = new Swiper('.swiper-filters', {
+const swiper = new Swiper(".swiper-filters", {
   direction: "horizontal",
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: 'auto',
+  slidesPerView: "auto",
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
     depth: 100,
     modifier: 1,
-    slideShadows : true,
+    slideShadows: true,
   },
   breakpoints: {
     1200: {
@@ -17,8 +17,6 @@ const swiper = new Swiper('.swiper-filters', {
       spaceBetween: 5,
     },
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
 });
+
+const swiperr = new Swiper(".swiper-");
